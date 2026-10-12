@@ -1,0 +1,84 @@
+TOEIC READING TEST
+Tài liệu Word có bộ thẻ (Tags) chuẩn để ứng dụng đọc nội dung
+Mục đích: chuyển nội dung đề Reading từ PDF được cung cấp thành DOCX và gắn thẻ ngữ nghĩa. Các thẻ được viết dưới dạng văn bản rõ ràng trong tài liệu để ứng dụng có thể nhận diện khi đọc DOCX.
+1. Định nghĩa bộ thẻ (Tag schema)
+Tag
+Ý nghĩa
+Quy tắc đọc
+<TEST> / </TEST>
+Bao toàn bộ đề thi
+Bắt đầu và kết thúc tài liệu đề thi.
+<TEST_TITLE>
+Tên đề thi
+Chứa tiêu đề đề thi.
+<TEST_INFO>
+Thông tin chung
+Thời lượng, hướng dẫn chung, ghi chú.
+<PART id="5"> / </PART>
+Phần thi
+id là số phần: 5, 6 hoặc 7.
+<DIRECTIONS> / </DIRECTIONS>
+Hướng dẫn làm bài
+Nội dung Directions của từng phần.
+<PASSAGE_GROUP questions="131-134"> / </PASSAGE_GROUP>
+Nhóm văn bản đọc
+Gắn nhóm bài đọc với dải câu hỏi liên quan.
+<PASSAGE_TITLE>
+Tiêu đề bài đọc
+Tiêu đề quảng cáo, email, bài báo, thông báo…
+<PASSAGE_TEXT>
+Nội dung bài đọc
+Các dòng nội dung thuộc văn bản nguồn.
+<QUESTION id="101"> / </QUESTION>
+Câu hỏi
+id là số câu hỏi.
+<QUESTION_TEXT>
+Thân câu hỏi
+Câu dẫn hoặc câu hỏi cần trả lời.
+<OPTION label="A">
+Lựa chọn đáp án
+Mỗi lựa chọn A/B/C/D là một thẻ riêng.
+<SOURCE_LINE>
+Dòng nguồn chưa phân loại
+Bảo toàn dòng PDF khi không thể phân loại chắc chắn.
+<PAGE_BREAK>
+Ranh giới trang nguồn
+Đánh dấu vị trí chuyển trang trong PDF.
+<END_TEST>
+Kết thúc đề
+Đánh dấu kết thúc dữ liệu đề thi.
+Quy ước: thẻ đóng có dạng </TEN_THE>. Thuộc tính id, label và questions giúp ứng dụng liên kết dữ liệu. Không tự suy đoán đáp án đúng; tài liệu giữ nội dung lựa chọn như bản PDF.
+2. Nội dung đề thi đã gắn thẻ
+<TEST>
+<SOURCE_LINE>='II- TEST</SOURCE_LINE>
+<TEST_TITLE>READING TEST</TEST_TITLE>
+<SOURCE_LINE>In the Reading test, you will read a variety of texts and answer several different types of reading</SOURCE_LINE>
+<SOURCE_LINE>comprehension questions. The entire Reading test will last 75 minutes . There are three parts, and</SOURCE_LINE>
+<SOURCE_LINE>directions are given for each part. You are encouraged to answer as many questions as possible within</SOURCE_LINE>
+<SOURCE_LINE>the time allowed .</SOURCE_LINE>
+<SOURCE_LINE>You must mark your answers on the separate answer sheet. Do not write your answers in your test</SOURCE_LINE>
+<SOURCE_LINE>book.</SOURCE_LINE>
+<PART id="5">
+<DIRECTIONS>Directions: A word or phrase is missing in each of the sentences below. Four answer choices are</DIRECTIONS>
+<SOURCE_LINE>given below each sentence. Select the best answer to complete the sentence. Then mark the letter</SOURCE_LINE>
+<SOURCE_LINE>(A), (B), (C), or (D) on your answer sheet.</SOURCE_LINE>
+<QUESTION id="101">
+<QUESTION_TEXT>Ms. Carpenter will be attending the            105. Ashburn Bank's online service has been in</QUESTION_TEXT>
+<SOURCE_LINE>     conference with ------- marketing team .            high demand -------.</SOURCE_LINE>
+<OPTION label="A">she                                             (A) lateness</OPTION>
+<OPTION label="B">her                                             (B) later</OPTION>
+<OPTION label="C">hers                                            (C) lately</OPTION>
+<OPTION label="D">herself                                         (D) latest</OPTION>
+</QUESTION>
+<QUESTION id="102">
+<QUESTION_TEXT>------- the last ten years, Bay City's         106. The------- of videos to electronic press</QUESTION_TEXT>
+<SOURCE_LINE>     population has grown by about 27 percent.           releases can help companies showcase</SOURCE_LINE>
+<OPTION label="A">As                                             their products.</OPTION>
+<OPTION label="B">Against                                        (A) content</OPTION>
+<OPTION label="C">During                                         (B) addition</OPTION>
+<OPTION label="D">Below                                          (C) pictures</OPTION>
+<OPTION label="D">promotion</OPTION>
+</QUESTION>
+<QUESTION id="103">
+<QUESTION_TEXT>Please congratulate Alan Schmit, ------- of</QUESTION_TEXT>
+<SOURCE_LINE>     the Leadership Award in Nursing at Knoll       107. Ms. Hyun is 

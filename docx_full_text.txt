@@ -1,0 +1,1095 @@
+TOEIC READING TEST
+Tài liệu Word có bộ thẻ (Tags) chuẩn để ứng dụng đọc nội dung
+Mục đích: chuyển nội dung đề Reading từ PDF được cung cấp thành DOCX và gắn thẻ ngữ nghĩa. Các thẻ được viết dưới dạng văn bản rõ ràng trong tài liệu để ứng dụng có thể nhận diện khi đọc DOCX.
+1. Định nghĩa bộ thẻ (Tag schema)
+Tag
+Ý nghĩa
+Quy tắc đọc
+<TEST> / </TEST>
+Bao toàn bộ đề thi
+Bắt đầu và kết thúc tài liệu đề thi.
+<TEST_TITLE>
+Tên đề thi
+Chứa tiêu đề đề thi.
+<TEST_INFO>
+Thông tin chung
+Thời lượng, hướng dẫn chung, ghi chú.
+<PART id="5"> / </PART>
+Phần thi
+id là số phần: 5, 6 hoặc 7.
+<DIRECTIONS> / </DIRECTIONS>
+Hướng dẫn làm bài
+Nội dung Directions của từng phần.
+<PASSAGE_GROUP questions="131-134"> / </PASSAGE_GROUP>
+Nhóm văn bản đọc
+Gắn nhóm bài đọc với dải câu hỏi liên quan.
+<PASSAGE_TITLE>
+Tiêu đề bài đọc
+Tiêu đề quảng cáo, email, bài báo, thông báo…
+<PASSAGE_TEXT>
+Nội dung bài đọc
+Các dòng nội dung thuộc văn bản nguồn.
+<QUESTION id="101"> / </QUESTION>
+Câu hỏi
+id là số câu hỏi.
+<QUESTION_TEXT>
+Thân câu hỏi
+Câu dẫn hoặc câu hỏi cần trả lời.
+<OPTION label="A">
+Lựa chọn đáp án
+Mỗi lựa chọn A/B/C/D là một thẻ riêng.
+<SOURCE_LINE>
+Dòng nguồn chưa phân loại
+Bảo toàn dòng PDF khi không thể phân loại chắc chắn.
+<PAGE_BREAK>
+Ranh giới trang nguồn
+Đánh dấu vị trí chuyển trang trong PDF.
+<END_TEST>
+Kết thúc đề
+Đánh dấu kết thúc dữ liệu đề thi.
+Quy ước: thẻ đóng có dạng </TEN_THE>. Thuộc tính id, label và questions giúp ứng dụng liên kết dữ liệu. Không tự suy đoán đáp án đúng; tài liệu giữ nội dung lựa chọn như bản PDF.
+2. Nội dung đề thi đã gắn thẻ
+<TEST>
+<SOURCE_LINE>='II- TEST</SOURCE_LINE>
+<TEST_TITLE>READING TEST</TEST_TITLE>
+<SOURCE_LINE>In the Reading test, you will read a variety of texts and answer several different types of reading</SOURCE_LINE>
+<SOURCE_LINE>comprehension questions. The entire Reading test will last 75 minutes . There are three parts, and</SOURCE_LINE>
+<SOURCE_LINE>directions are given for each part. You are encouraged to answer as many questions as possible within</SOURCE_LINE>
+<SOURCE_LINE>the time allowed .</SOURCE_LINE>
+<SOURCE_LINE>You must mark your answers on the separate answer sheet. Do not write your answers in your test</SOURCE_LINE>
+<SOURCE_LINE>book.</SOURCE_LINE>
+<PART id="5">
+<DIRECTIONS>Directions: A word or phrase is missing in each of the sentences below. Four answer choices are</DIRECTIONS>
+<SOURCE_LINE>given below each sentence. Select the best answer to complete the sentence. Then mark the letter</SOURCE_LINE>
+<SOURCE_LINE>(A), (B), (C), or (D) on your answer sheet.</SOURCE_LINE>
+<QUESTION id="101">
+<QUESTION_TEXT>Ms. Carpenter will be attending the            105. Ashburn Bank's online service has been in</QUESTION_TEXT>
+<SOURCE_LINE>     conference with ------- marketing team .            high demand -------.</SOURCE_LINE>
+<OPTION label="A">she                                             (A) lateness</OPTION>
+<OPTION label="B">her                                             (B) later</OPTION>
+<OPTION label="C">hers                                            (C) lately</OPTION>
+<OPTION label="D">herself                                         (D) latest</OPTION>
+</QUESTION>
+<QUESTION id="102">
+<QUESTION_TEXT>------- the last ten years, Bay City's         106. The------- of videos to electronic press</QUESTION_TEXT>
+<SOURCE_LINE>     population has grown by about 27 percent.           releases can help companies showcase</SOURCE_LINE>
+<OPTION label="A">As                                             their products.</OPTION>
+<OPTION label="B">Against                                        (A) content</OPTION>
+<OPTION label="C">During                                         (B) addition</OPTION>
+<OPTION label="D">Below                                          (C) pictures</OPTION>
+<OPTION label="D">promotion</OPTION>
+</QUESTION>
+<QUESTION id="103">
+<QUESTION_TEXT>Please congratulate Alan Schmit, ------- of</QUESTION_TEXT>
+<SOURCE_LINE>     the Leadership Award in Nursing at Knoll       107. Ms. Hyun is reviewing the training manual</SOURCE_LINE>
+<SOURCE_LINE>     Hospital.                                           to see if updates -------.</SOURCE_LINE>
+<OPTION label="A">won                                            (A) have need</OPTION>
+<OPTION label="B">wins                                           (B) needing</OPTION>
+<OPTION label="C">winning                                        (C) are needed</OPTION>
+<OPTION label="D">winner                                         (D) to be needed</OPTION>
+</QUESTION>
+<QUESTION id="104">
+<QUESTION_TEXT>Ireland's largest software producer will       108. When leaving the auditorium, please exit</QUESTION_TEXT>
+<SOURCE_LINE>     ------- be opening a large facility in Cork.        ------- the doors on the lower level.</SOURCE_LINE>
+<OPTION label="A">soon                                           (A) except</OPTION>
+<OPTION label="B">such                                           (B) inside</OPTION>
+<OPTION label="C">ever                                           (C) without</OPTION>
+<OPTION label="D">like                                           (D) through</OPTION>
+<SOURCE_LINE>50</SOURCE_LINE>
+</QUESTION>
+<QUESTION id="109">
+<QUESTION_TEXT>The judges for this year's screenplay         115. Daniel Nishida, the chief supply officer,</QUESTION_TEXT>
+<SOURCE_LINE>     competition include ------- from Hanovi            asked that ------- be given full responsibility</SOURCE_LINE>
+<SOURCE_LINE>     Studios.                                           for approving all invoices .</SOURCE_LINE>
+<OPTION label="A">represents                                     (A) he</OPTION>
+<OPTION label="B">representatives                                (B) him</OPTION>
+<OPTION label="C">represented                                    (C) his</OPTION>
+<OPTION label="D">represent                                      (D) himself</OPTION>
+</QUESTION>
+<QUESTION id="110">
+<QUESTION_TEXT>I have attached my resume detailing my        116. In preparation for Mr. Kumar's retirement at</QUESTION_TEXT>
+<SOURCE_LINE>     ------- experience in the hotel industry.          the end of March, the Carolex Corporation</SOURCE_LINE>
+<OPTION label="A">extensive                                     will need to ------- a new facilities director.</OPTION>
+<OPTION label="B">punctual                                       (A) resume</OPTION>
+<OPTION label="C">prospective                                    (B) compete</OPTION>
+<OPTION label="D">accepted                                       (C) recruit</OPTION>
+<OPTION label="D">conduct</OPTION>
+</QUESTION>
+<QUESTION id="111">
+<QUESTION_TEXT>Remember to check the spelling of</QUESTION_TEXT>
+<SOURCE_LINE>     Mr. Kamashi 's name when ------- the          117. The team's contributions to the Ripton</SOURCE_LINE>
+<SOURCE_LINE>     document.                                          Group's marketing plan were very -------</SOURCE_LINE>
+<OPTION label="A">revising                                      acknowledged .</OPTION>
+<OPTION label="B">revises                                        (A) favor</OPTION>
+<OPTION label="C">revised                                        (B) favorably</OPTION>
+<OPTION label="D">revise                                         (C) favorable</OPTION>
+<OPTION label="D">favored</OPTION>
+<SOURCE_LINE>11 2. Residents visited City Hall to ask -------</SOURCE_LINE>
+<SOURCE_LINE>      developers will preserve the historic        118. ------- receiving the engineering award,</SOURCE_LINE>
+<SOURCE_LINE>      properties.                                       Ms. Kwon made a point of thanking</SOURCE_LINE>
+<OPTION label="A">although                                      longtime mentors.</OPTION>
+<OPTION label="B">since                                          (A) Onto</OPTION>
+<OPTION label="C">whether                                        (B) Unlike</OPTION>
+<OPTION label="D">both                                           (C) About</OPTION>
+<OPTION label="D">Upon</OPTION>
+</QUESTION>
+<QUESTION id="113">
+<QUESTION_TEXT>The Ford Group's proposed advertising</QUESTION_TEXT>
+<SOURCE_LINE>     campaign is by far the most ------- we have   119. Please read the list of ------- qualifications to</SOURCE_LINE>
+<SOURCE_LINE>     seen so far.                                       ensure that you have the necessary</SOURCE_LINE>
+<OPTION label="A">innovate                                       education and experience for the position.</OPTION>
+<OPTION label="B">innovative                                      (A) slight</OPTION>
+<OPTION label="C">innovations                                     (B) equal</OPTION>
+<OPTION label="D">innovatively                                    (C) obliged</OPTION>
+<OPTION label="D">essential</OPTION>
+</QUESTION>
+<QUESTION id="114">
+<QUESTION_TEXT>Solei Landscaping announced that the</QUESTION_TEXT>
+<SOURCE_LINE>     design for the Cherry Hill building complex   120. Choosing the best software tool to eliminate</SOURCE_LINE>
+<SOURCE_LINE>     is ------- complete .                               computer viruses is rarely simple, ------- it is</SOURCE_LINE>
+<OPTION label="A">almost                                        . important to seek expert advice.</OPTION>
+<OPTION label="B">nearby                                          (A) why</OPTION>
+<OPTION label="C">anytime                                         (B) then</OPTION>
+<OPTION label="D">yet                                             (C) nor</OPTION>
+<OPTION label="D">so</OPTION>
+<SOURCE_LINE>                                                                               GO ON TO THE NEXT PAGE •</SOURCE_LINE>
+<SOURCE_LINE>                                                                                              TEST 2 51</SOURCE_LINE>
+</QUESTION>
+<QUESTION id="121">
+<QUESTION_TEXT>Ms. Delgado would like to meet with all loan     126. The Williamsport Hotel is an ideal venue for</QUESTION_TEXT>
+<SOURCE_LINE>     officers ------- reviewing any more loan              the conference because of its ------- to the</SOURCE_LINE>
+<SOURCE_LINE>     applications.                                         airport.</SOURCE_LINE>
+<OPTION label="A">now that                                          (A) achievement</OPTION>
+<OPTION label="B">as though                                         (B) proximity</OPTION>
+<OPTION label="C">before                                            (C) competence</OPTION>
+<OPTION label="D">often                                             (D) exception</OPTION>
+</QUESTION>
+<QUESTION id="122">
+<QUESTION_TEXT>Cedar Branch Hill has a ------- as a             127. The second training session is for</QUESTION_TEXT>
+<SOURCE_LINE>     business-friendly environment that provides           employees ------- responsibilities include</SOURCE_LINE>
+<SOURCE_LINE>     efficient licensing and other legal processes.        processing payroll forms.</SOURCE_LINE>
+<OPTION label="A">prediction                                        (A) whose</OPTION>
+<OPTION label="B">courtesy                                          (B) which</OPTION>
+<OPTION label="C">reputation                                        (C) what</OPTION>
+<OPTION label="D">statement                                         (D) who</OPTION>
+</QUESTION>
+<QUESTION id="123">
+<QUESTION_TEXT>The actors held an additional rehearsal          128. ------- poorly the high-speed printer may be</QUESTION_TEXT>
+<SOURCE_LINE>     ------- perfect their performance in the final        functioning, it is still making copies that are</SOURCE_LINE>
+<SOURCE_LINE>     scene .                                               adequate for our purposes.</SOURCE_LINE>
+<OPTION label="A">considerably                                      (A) Rather</OPTION>
+<OPTION label="B">in order to                                       (B) Seldom</OPTION>
+<OPTION label="C">nevertheless                                      (C) However</OPTION>
+<OPTION label="D">as a result of                                    (D) Thoroughly</OPTION>
+</QUESTION>
+<QUESTION id="124">
+<QUESTION_TEXT>RZT Technology will double the size of its       129. The long-awaited Weka 2XG digital camera</QUESTION_TEXT>
+<SOURCE_LINE>     Toronto laboratory to -------the                      will finally be ------- at a product exhibition</SOURCE_LINE>
+<SOURCE_LINE>     organization's rapid growth .                         on August 16.</SOURCE_LINE>
+<OPTION label="A">assign                                            (A) reduced</OPTION>
+<OPTION label="B">investigate                                       (B) unveiled</OPTION>
+<OPTION label="C">experience                                        (C) consulted</OPTION>
+<OPTION label="D">accommodate                                       (D) resolved</OPTION>
+</QUESTION>
+<QUESTION id="125">
+<QUESTION_TEXT>Even though Smithton Electronics' second         130. Northeast Community Finance ------- an</QUESTION_TEXT>
+<SOURCE_LINE>     quarter was not -------, the company plans            online system in order to shorten service</SOURCE_LINE>
+<SOURCE_LINE>     to invest large sums on research.                     lines at branch locations.</SOURCE_LINE>
+<OPTION label="A">profitable                                        (A) has implemented</OPTION>
+<OPTION label="B">profiting                                         (B) to be implementing</OPTION>
+<OPTION label="C">profitability                                     (C) to have been implementing</OPTION>
+<OPTION label="D">profitably                                        (D) is implemented</OPTION>
+<SOURCE_LINE>52</SOURCE_LINE>
+</PART>
+<PART id="6">
+<DIRECTIONS>Directions: Read the texts that follow. A word, phrase, or sentence is missing in parts of each text.</DIRECTIONS>
+<SOURCE_LINE>Four answer choices for each question are given below the text. Select the best answer to complete</SOURCE_LINE>
+<SOURCE_LINE>                                                                                                              I</SOURCE_LINE>
+<SOURCE_LINE>the text. Then mark the letter (A), (B), (C), or (D) on your answer sheet.</SOURCE_LINE>
+</QUESTION>
+<PASSAGE_GROUP questions="131-134">
+<PASSAGE_TITLE>Questions 131-134 refer to the following advertisement.</PASSAGE_TITLE>
+<PASSAGE_TEXT>   Garden Shade Tree Landscaping</PASSAGE_TEXT>
+<PASSAGE_TEXT>   Garden Shade creates tree landscapes and hedges to suit every garden, no matter the size. Our</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  13-:r small urban gardens as well as large-scale projects commissioned by</PASSAGE_TEXT>
+<PASSAGE_TEXT>   designs have - -</PASSAGE_TEXT>
+<PASSAGE_TEXT>   architects and property developers. ------- . However, no single nursery can offer trees of all</PASSAGE_TEXT>
+<QUESTION id="132">
+<QUESTION_TEXT></QUESTION_TEXT>
+<PASSAGE_TEXT>   species and sizes. That is why Garden Shade has developed close relationships with many</PASSAGE_TEXT>
+<PASSAGE_TEXT>   specialist growers       to provide us with the trees we need . Such resources give us the variety</PASSAGE_TEXT>
+<PASSAGE_TEXT>   necessary to complete any ------- . In other words, whatever your landscape design dream, we can</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="134">
+<QUESTION_TEXT></QUESTION_TEXT>
+<PASSAGE_TEXT>   make it happen.</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="131">
+<QUESTION_TEXT>(A) transformed                                 133. (A) readiness</QUESTION_TEXT>
+<OPTION label="B">related                                          (B) readies</OPTION>
+<OPTION label="C">collected                                        (C) readiest</OPTION>
+<OPTION label="D">planted                                          (D) ready</OPTION>
+</QUESTION>
+<QUESTION id="132">
+<QUESTION_TEXT>(A) We are here to answer your                  134. (A) study</QUESTION_TEXT>
+<PASSAGE_TEXT>          landscaping questions.                          (B) form</PASSAGE_TEXT>
+<OPTION label="B">For most projects, we use trees from             (C) order</OPTION>
+<PASSAGE_TEXT>          our own nurseries.                              (D) survey</PASSAGE_TEXT>
+<OPTION label="C">Some trees have specific growing</OPTION>
+<PASSAGE_TEXT>          requirements.</PASSAGE_TEXT>
+<OPTION label="D">Under normal conditions, nursery stock</OPTION>
+<PASSAGE_TEXT>          is guaranteed for one year.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                  GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                 TEST 2 53</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="135-138">
+<PASSAGE_TITLE>Questions 135-138 refer to the following e-mail.</PASSAGE_TITLE>
+<PASSAGE_TEXT>     To: Staff</PASSAGE_TEXT>
+<PASSAGE_TEXT>     From: Amy Henwith</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Date: 15 January</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Subject: Exciting news</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Dear Staff,</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Thanks for a great year! In case you haven't heard, Henwith Home Supply will be -------our second</PASSAGE_TEXT>
+<QUESTION id="135">
+<QUESTION_TEXT></QUESTION_TEXT>
+<PASSAGE_TEXT>     store this spring. This additional retail site will be located in the shopping centre at the corner of</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Aberton Parkway and Sutton Avenue in Derbyshire.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     We will be accepting applications for cashiers and sales positions - -iG.- 1 April. The personnel</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                             1</PASSAGE_TEXT>
+<PASSAGE_TEXT>     director will review applicants' qualifications from 2 April to 6 April, and ------- is scheduled to</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="137">
+<QUESTION_TEXT></QUESTION_TEXT>
+<PASSAGE_TEXT>     begin one week later. - -   :.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                              138</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Best,</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Amy Henwith, CEO</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Henwith Home Supply</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="135">
+<QUESTION_TEXT>(A) moving                                           138. (A) Feel free to share this news with any</QUESTION_TEXT>
+<OPTION label="B">renovating                                                 interested friends.</OPTION>
+<OPTION label="C">expanding                                             (B) Make sure you have received all of the</OPTION>
+<OPTION label="D">opening                                                    material.</OPTION>
+<OPTION label="C">Contact Henwith Home Supply if you are</OPTION>
+</QUESTION>
+<QUESTION id="136">
+<QUESTION_TEXT>(A) until                                                      still waiting for a response.</QUESTION_TEXT>
+<OPTION label="B">following                                             (D) Access to the main entrance will be</OPTION>
+<OPTION label="C">according to                                               blocked by construction.</OPTION>
+<OPTION label="D">for</OPTION>
+</QUESTION>
+<QUESTION id="137">
+<QUESTION_TEXT>(A) trainer</QUESTION_TEXT>
+<OPTION label="B">training</OPTION>
+<OPTION label="C">train</OPTION>
+<OPTION label="D">trained</OPTION>
+<SOURCE_LINE>54</SOURCE_LINE>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="139-142">
+<PASSAGE_TITLE>Questions 139-142 refer to the following article.</PASSAGE_TITLE>
+<PASSAGE_TEXT>   Amon Donates to Music School in Grenel City</PASSAGE_TEXT>
+<PASSAGE_TEXT>   A spokesperson for Brenda Amon ------- that the pianist made a sizeable donation toward the</PASSAGE_TEXT>
+<QUESTION id="139">
+<QUESTION_TEXT></QUESTION_TEXT>
+<PASSAGE_TEXT>   expansion of the Grenel City Conservatory of Music. "Without her generous support," said</PASSAGE_TEXT>
+<PASSAGE_TEXT>   Marc Diaz, director of facility planning, "we would have been limited in our renovation plans going</PASSAGE_TEXT>
+<PASSAGE_TEXT>   forward."</PASSAGE_TEXT>
+<PASSAGE_TEXT>   -- --- -- . Now, a new wing will be constructed on the south end of the ------- conservatory. Once</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="140">
+<QUESTION_TEXT>141.</QUESTION_TEXT>
+<PASSAGE_TEXT>   completed, the building will boast a 700-seat auditorium, state-of-the-art recording studios, and</PASSAGE_TEXT>
+<PASSAGE_TEXT>   new faculty and administrative offices. Additionally, private practice rooms will be located</PASSAGE_TEXT>
+<PASSAGE_TEXT>   -1-42_- the current student lounge.</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="139">
+<QUESTION_TEXT>(A) confirm                                      141. (A) temporary</QUESTION_TEXT>
+<OPTION label="B">confirmation                                      (B) existing</OPTION>
+<OPTION label="C">has confirmed                                     (C) corrected</OPTION>
+<OPTION label="D">will confirm                                      (D) proposed</OPTION>
+</QUESTION>
+<QUESTION id="140">
+<QUESTION_TEXT>(A) Ms. Amon's performance at the                142. (A) adjacent to</QUESTION_TEXT>
+<PASSAGE_TEXT>          conservatory was outstanding.                    (B) even though</PASSAGE_TEXT>
+<OPTION label="B">The project had been delayed                      (C) instead of</OPTION>
+<PASSAGE_TEXT>          because of budget cuts.                          (D) as well as</PASSAGE_TEXT>
+<OPTION label="C">Student enrollment has decreased</OPTION>
+<PASSAGE_TEXT>          over the past few years.</PASSAGE_TEXT>
+<OPTION label="D">The original conservatory is being</OPTION>
+<PASSAGE_TEXT>          converted into student housing.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                   GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                  TEST 2 55</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="143-146">
+<PASSAGE_TITLE>Questions 143-146 refer to the following e-mail.</PASSAGE_TITLE>
+<PASSAGE_TEXT>     Date: 11 January</PASSAGE_TEXT>
+<PASSAGE_TEXT>     To: Mitchell Parker <mparker@allmail.co.za></PASSAGE_TEXT>
+<PASSAGE_TEXT>     From : Inez Lofaro <ilofaro@daqtex.co.za></PASSAGE_TEXT>
+<PASSAGE_TEXT>     Subject: Product recall</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Dear Mr. Parker,</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Thank you for your recent - -  : of the Daqtex Mini-V camera. We are contacting everyone who</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                 143</PASSAGE_TEXT>
+<PASSAGE_TEXT>     has recently bought this product to inform them that certain models are being recalled for repair.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     In these models, the electronic chip that enables the digital conversion of light is faulty.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     -- ----- . Please -------whether your camera has this problem by checking the serial number on the</PASSAGE_TEXT>
+<PASSAGE_TEXT>      1 4 4.            145.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     bottom of the camera. If it ends with the letters TVX, a repair will be required. Daqtex will pay all</PASSAGE_TEXT>
+<PASSAGE_TEXT>     shipping costs for sending your Mini-V back to us. In addition, we will repair ------- free of charge.</PASSAGE_TEXT>
+<QUESTION id="146">
+<QUESTION_TEXT></QUESTION_TEXT>
+<PASSAGE_TEXT>     Thank you,</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Inez Lofaro, Customer Service Manager</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Daqtex Industries</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="143">
+<QUESTION_TEXT>(A) purchase                                       145. (A) verification</QUESTION_TEXT>
+<OPTION label="B">review                                            (B) verified</OPTION>
+<OPTION label="C">gift                                               (C) verify</OPTION>
+<OPTION label="D">demonstration                                      (D) verifies</OPTION>
+</QUESTION>
+<QUESTION id="144">
+<QUESTION_TEXT>(A) We hope you will enjoy the product for         146. (A) mine</QUESTION_TEXT>
+<PASSAGE_TEXT>              many years to come.                             (B) it</PASSAGE_TEXT>
+<OPTION label="B">It is covered in the troubleshooting               (C) theirs</OPTION>
+<PASSAGE_TEXT>             section of the manual.                           (D) these</PASSAGE_TEXT>
+<OPTION label="C">This defect will eventually interfere with</OPTION>
+<PASSAGE_TEXT>             the clarity of your images.</PASSAGE_TEXT>
+<OPTION label="D">This special feature is unavailable on</OPTION>
+<PASSAGE_TEXT>             some older models.</PASSAGE_TEXT>
+<SOURCE_LINE>56</SOURCE_LINE>
+</PART>
+<PART id="7">
+<DIRECTIONS>Directions: In this part you will read a selection of texts, such as magazine and newspaper articles,</DIRECTIONS>
+<PASSAGE_TEXT>  e-mails, and instant messages. Each text or set of texts is followed by several questions. Select the</PASSAGE_TEXT>
+<PASSAGE_TEXT>  best answer for each question and mark the letter (A), (B), (C), or (D) on your answer sheet.</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="147-148">
+<PASSAGE_TITLE>Questions 147-148 refer to the following notice.</PASSAGE_TITLE>
+<PASSAGE_TEXT>                                         Fastest Fleet</PASSAGE_TEXT>
+<PASSAGE_TEXT>                           RATE OUR SERVICES AND WIN FREE TRAVEL!</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Visit our Web site at www.fastestfleet.com/feedback and fill out the</PASSAGE_TEXT>
+<PASSAGE_TEXT>          5-minute questionnaire. You could win one of 10 FREE round-trip bus</PASSAGE_TEXT>
+<PASSAGE_TEXT>          trips to any destination within the continental United States!</PASSAGE_TEXT>
+<PASSAGE_TEXT>          You must be 18 or older to participate. Only customers who have</PASSAGE_TEXT>
+<PASSAGE_TEXT>          previously traveled with Fastest Fleet are eligible to enter.</PASSAGE_TEXT>
+<QUESTION id="147">
+<QUESTION_TEXT>Where would the notice likely be seen?           148. What are customers asked to do?</QUESTION_TEXT>
+<OPTION label="A">In an airport                                     (A) Provide feedback</OPTION>
+<OPTION label="B">In a bus station                                  (B) Buy a round-trip ticket</OPTION>
+<OPTION label="C">In a train station                                (C) Take advantage of a discount</OPTION>
+<OPTION label="D">In a ferry terminal                               (D) Join a customer loyalty program</OPTION>
+<PASSAGE_TEXT>                                                                               GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                              TEST 2 57</PASSAGE_TEXT>
+<PASSAGE_TEXT>Question s 149-150 refer to the following online chat discussion.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                      -    Cl          X</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                   ...</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                ..,.....</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Daniel Mather (9:38 A.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Hi Sue, are you working at home today?</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Susan Maldini (9:39 A.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>          No, but I'm at an off-s ite meeting. What's up?</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Daniel Mather (9:41 A.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>          The manager asked me to make hard cop ies of some co ntract agreements</PASSAGE_TEXT>
+<PASSAGE_TEXT>          for our record s. I forgot my printer card at home. Could I borrow yours?</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Susan Maldini (9:42 A.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Sure thing. It's in the business card holder on my desk.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Daniel Mather (9:55 A.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Okay, done. Thank you! I put it back on your desk.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                 ...</PASSAGE_TEXT>
+<PASSAGE_TEXT>        @®                                                                                 •••</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="149">
+<QUESTION_TEXT>What task was Mr. Mather given?                 150. At 9:42A.M., what does Ms. Maldini most</QUESTION_TEXT>
+<OPTION label="A">To send out contracts                            likely mean when she writes "Sure thing"?</OPTION>
+<OPTION label="B">To repair the photocopier                         (A) She can lend Mr. Mather her card .</OPTION>
+<OPTION label="C">To monitor employee attendance                    (B) She will return to the office.</OPTION>
+<OPTION label="D">To make copies of some documents                  (C) She will contact the manager.</OPTION>
+<OPTION label="D">She can copy the agreements.</OPTION>
+<SOURCE_LINE>58</SOURCE_LINE>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="151-152">
+<PASSAGE_TITLE>Questions 151-152 refer to the following memo.</PASSAGE_TITLE>
+<PASSAGE_TEXT>           MEMO</PASSAGE_TEXT>
+<PASSAGE_TEXT>           To:   Westhauser Laboratories Staff</PASSAGE_TEXT>
+<PASSAGE_TEXT>           From: Area manager</PASSAGE_TEXT>
+<PASSAGE_TEXT>           Date: March 22</PASSAGE_TEXT>
+<PASSAGE_TEXT>           Re:   Break-time beverages</PASSAGE_TEXT>
+<PASSAGE_TEXT>           Beginning immediately, staff members are asked to contribute toward the</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                        I</PASSAGE_TEXT>
+<PASSAGE_TEXT>           cost of hot beverages available in our kitchenette. For each cup of coffee or</PASSAGE_TEXT>
+<PASSAGE_TEXT>           tea you pour for yourself, we are requesting that you leave fifty cents.</PASSAGE_TEXT>
+<PASSAGE_TEXT>           Please note that this amount is still far less than what you would pay at</PASSAGE_TEXT>
+<PASSAGE_TEXT>           the cafe next to our building.</PASSAGE_TEXT>
+<PASSAGE_TEXT>           Each time you prepare a beverage, just place your payment in the marked</PASSAGE_TEXT>
+<PASSAGE_TEXT>           can on the counter next to the sink. As in the past, a variety of</PASSAGE_TEXT>
+<PASSAGE_TEXT>           high-quality tea and coffee supplies will be made available, and products</PASSAGE_TEXT>
+<PASSAGE_TEXT>           will be restocked monthly. Your understanding is appreciated so that</PASSAGE_TEXT>
+<PASSAGE_TEXT>           everyone can continue to enjoy conveniently located hot beverages</PASSAGE_TEXT>
+<PASSAGE_TEXT>           throughout the workday.</PASSAGE_TEXT>
+<QUESTION id="151">
+<QUESTION_TEXT>What is the purpose of the memo?             152. What are staff members asked to do?</QUESTION_TEXT>
+<OPTION label="A">To explain a new policy                        (A) Bring their own beverages to work</OPTION>
+<OPTION label="B">To discourage long breaks                      (B) Leave payments in a container</OPTION>
+<OPTION label="C">To provide a budget update                     (C) Submit requests for supplies</OPTION>
+<OPTION label="D">To address staff complaints                    (D) Keep the kitchenette tidy</OPTION>
+<PASSAGE_TEXT>                                                                           GO ON TO THE NEXT PAGE . .</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                           TEST 2 59</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="153-155">
+<PASSAGE_TITLE>Questions 153-155 refer to the following notice.</PASSAGE_TITLE>
+<PASSAGE_TEXT>     "';" (•'                                                                                 f e) r"</PASSAGE_TEXT>
+<PASSAGE_TEXT>     '-                                                                                              •</PASSAGE_TEXT>
+<PASSAGE_TEXT>                       Attention Milwaukee Modern Art Museum Visitors</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  The Meacham Room is closed temporarily as we prepare the space for the</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  Modern Artist Showcase, which will run from Aprill to June 30.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  We encourage you to return to experience this much-anticipated exhibit</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  that will feature paintings, sculpture, and multimedia works by</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  acclaimed international artists such as Sally Acosta, Frank Kember,</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  Kimberly Hong, and Matilda Breeland. Of note is newcomer Theodore</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  Carmody's sculpture collection that was dubbed "most exciting debut</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  of the decade" by Ethan Lerner, renowned and respected critic of the</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  Ireland Arts Chronicle. More information about the featured artists</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  and the exhibit can be found at www.milwaukeemodernart.org. Or</PASSAGE_TEXT>
+<PASSAGE_TEXT>                  download our museum app to keep current with all upcoming events.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     I'-' _(•.)                                                                            , .) 1....:.1</PASSAGE_TEXT>
+<QUESTION id="153">
+<QUESTION_TEXT>What is indicated about the museum?               155. Who was pra ised by Mr. Lerner?</QUESTION_TEXT>
+<OPTION label="A">It is promoting an upcoming exhibit on              (A) Ms. Acosta</OPTION>
+<PASSAGE_TEXT>            its Web site.                                    (B) Mr. Kember</PASSAGE_TEXT>
+<OPTION label="B">It is known for its sculpture exhibits.             (C) Ms. Hong</OPTION>
+<OPTION label="C">It will be closed for renovations in April.         (D) Mr. Carmody</OPTION>
+<OPTION label="D">Its upcoming exhibit is free for museum</OPTION>
+<PASSAGE_TEXT>            members.</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="154">
+<QUESTION_TEXT>Who is Ms. Breeland?</QUESTION_TEXT>
+<OPTION label="A">Ajournalist</OPTION>
+<OPTION label="B">An artist</OPTION>
+<OPTION label="C">A museum curator</OPTION>
+<OPTION label="D">An art critic</OPTION>
+<SOURCE_LINE>60</SOURCE_LINE>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="156-157">
+<PASSAGE_TITLE>Questions 156-157 refer to the following form.</PASSAGE_TITLE>
+<PASSAGE_TEXT>                                         Change of Work Order</PASSAGE_TEXT>
+<PASSAGE_TEXT>       General Contractor:</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Howard Kleiber Mercrest Construction</PASSAGE_TEXT>
+<PASSAGE_TEXT>       106 Pickens Way. Columbus. OH 43211</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Property Owner: Oscar Copeland. 866 Andell Road. Columbus. OH 43215</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Project Start Date: July 10</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Project End Date: July 15</PASSAGE_TEXT>
+<PASSAGE_TEXT>       The contractor is hereby instructed to make the following changes to the contract</PASSAGE_TEXT>
+<PASSAGE_TEXT>       documents:</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Description of Work Added/Deleted:</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Client will now be supplying the countertops and faucet in addition to the</PASSAGE_TEXT>
+<PASSAGE_TEXT>       kitchen cabinets. Therefore. the total project cost will be adjusted to</PASSAGE_TEXT>
+<PASSAGE_TEXT>       only include the cost of installation.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Original Contract Price: $ 3 .496</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Net Reduction from Previous Contract: -$2.412</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Total Project Cost with Approved Changes: $1.084</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Revised Payment Schedule:</PASSAGE_TEXT>
+<PASSAGE_TEXT>       15c:to of total project cost ($162) is due upfront to secure contractor.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       $222 is due on project start date. and the remainder ($700) is due upon</PASSAGE_TEXT>
+<PASSAGE_TEXT>       project completion.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Accepted by:</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Contractor:    H.owMJ.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Property Owner:     Oscar Ct?&lan.J</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                    I</PASSAGE_TEXT>
+<QUESTION id="156">
+<QUESTION_TEXT>Why has the price of a project been              157. How much money will Mr. Copeland most</QUESTION_TEXT>
+<PASSAGE_TEXT>     adjusted?                                             likely give Mr. Kleiber on July 15 ?</PASSAGE_TEXT>
+<OPTION label="A">The client is providing all the materials.        (A) $162</OPTION>
+<OPTION label="B">The client wants to match a                       (B) $222</OPTION>
+<PASSAGE_TEXT>          competitor's price.                              (C) $700</PASSAGE_TEXT>
+<OPTION label="C">The contractor installed countertops              (D) $1,084</OPTION>
+<PASSAGE_TEXT>          incorrectly.</PASSAGE_TEXT>
+<OPTION label="D">The contractor overestimated the cost</OPTION>
+<PASSAGE_TEXT>          of labor.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                GO ON TO THE NEXT PAGE •</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                               TEST 2 61</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="158-160">
+<PASSAGE_TITLE>Questions 158-160 refer to the following e-mail.</PASSAGE_TITLE>
+<PASSAGE_TEXT>     To:               Dahlia Pawar <dpawar@bronsonco.ca></PASSAGE_TEXT>
+<PASSAGE_TEXT>     [From:            Anna Bondell <abondell@noaaa.com></PASSAGE_TEXT>
+<PASSAGE_TEXT>           -::-.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Subject:          Information</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Date:             August 25</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Dear Ms. Pawar:</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Thank you for your continued membership in the North American Architects Association.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     I'm writing to remind you that preregistration for the annual conference closes on</PASSAGE_TEXT>
+<PASSAGE_TEXT>     September 15. - [1] - . This year's conference features more than 100 sessions, an</PASSAGE_TEXT>
+<PASSAGE_TEXT>     exhibit hall, and special workshops. - [2] - .</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Preregistration will save you $30 off the regular registration fee. - [3] -. At the same</PASSAGE_TEXT>
+<PASSAGE_TEXT>     time, you'll be able to sign up in advance for a group tour of the city and for the VIP</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Banquet, which always fills up quickly. Visit our Web site to register online. - [4] - . If</PASSAGE_TEXT>
+<PASSAGE_TEXT>     you prefer to register by telephone, contact us at 1-249-555-0177. Please have your</PASSAGE_TEXT>
+<PASSAGE_TEXT>     membership number available.</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Looking forward to seeing you in Mexico City!</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Sincerely,</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                   •</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Anna Bondell</PASSAGE_TEXT>
+<PASSAGE_TEXT>     Membership Coordinator</PASSAGE_TEXT>
+<QUESTION id="158">
+<QUESTION_TEXT>What most likely is Ms. Pawar's occupation?      160. In which of the positions marked [1], [2], [3],</QUESTION_TEXT>
+<OPTION label="A">Architect                                        and [4] does the following sentence best</OPTION>
+<OPTION label="B">Writer                                           belong?</OPTION>
+<OPTION label="C">Travel agent</OPTION>
+<OPTION label="D">Conference organizer                              "You will also find the complete conference</OPTION>
+<PASSAGE_TEXT>                                                            program there."</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="159">
+<QUESTION_TEXT>What is NOT a benefit of conference                   (A) [1]</QUESTION_TEXT>
+<PASSAGE_TEXT>     preregistration?                                      (B) [2]</PASSAGE_TEXT>
+<OPTION label="C">[3]</OPTION>
+<OPTION label="A">A tour of Mexico City</OPTION>
+<OPTION label="B">A hotel room upgrade</OPTION>
+<OPTION label="D">[4]</OPTION>
+<OPTION label="C">Admission to a dinner</OPTION>
+<OPTION label="D">Reduced registration fees</OPTION>
+<SOURCE_LINE>62</SOURCE_LINE>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="161-164">
+<PASSAGE_TITLE>Questions 161-164 refer to the following online chat discussion.</PASSAGE_TITLE>
+<PASSAGE_TEXT>       Eile   Meet Now Iools     .t!elp                                                          L]       X</PASSAGE_TEXT>
+<PASSAGE_TEXT>       [lJ c;!W I                                                                                     p</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                  -</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Kurt Webber (4:30P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Jake and I are grabbing a bite to eat after work, around 5:30. Anyone care to join us?</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Davi Avril (4:31P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Maybe. I still have some work to do on the midyear report. Where are you planning to go?</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Kurt Webber (4:32P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      We're thinking of trying the new Mexican place on Slate Road. It's called Ocho Coronas.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Tim Foxx (4:33P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      You're out of luck. That place closed a few days ago.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Kurt Webber (4:34P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      That's too bad. I heard great things about it.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Tim Foxx (4:36P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      How about Lotus Tacos around the corner? They always have a special menu on Fridays.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Kurt Webber (4:37P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      That would be great. Do you want to go to Lotus Tacos, Jake?</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Davi Avril (4:38P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      OK, but I won't be able to get there till about six.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Jake Rivas (4:39P.M.)</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Sounds good to me. And Davi, I just sent you the updated figures for the report.</PASSAGE_TEXT>
+<QUESTION id="161">
+<QUESTION_TEXT>What are the writers discussing?                   163. At 4:34P.M., why most likely does</QUESTION_TEXT>
+<OPTION label="A">Where to hold a company banquet                     Mr. Webber write, "That's too bad"?</OPTION>
+<OPTION label="B">What restaurant serves the best food                 (A) He wanted to try a new restaurant.</OPTION>
+<OPTION label="C">What is on the menu at Ocho Coronas                  (B) Mr. Foxx cannot complete a project.</OPTION>
+<OPTION label="D">Where to go for dinner                               (C) Slate Road is too far away.</OPTION>
+<OPTION label="D">He has a scheduling conflict.</OPTION>
+</QUESTION>
+<QUESTION id="162">
+<QUESTION_TEXT>What information does Mr. Foxx provide</QUESTION_TEXT>
+<PASSAGE_TEXT>     about Ocho Coronas?                                164. What does Mr. Avril decide to do?</PASSAGE_TEXT>
+<OPTION label="A">People have recommended it to him.                   (A) Research nearby restaurants</OPTION>
+<OPTION label="B">It usually opens early on Fridays.                   (B) Work extra hours tomorrow</OPTION>
+<OPTION label="C">The food there is not very authentic.                (C) Join his coworkers for a meal</OPTION>
+<OPTION label="D">It is no longer in business.                         (D) Have food delivered to the office</OPTION>
+<PASSAGE_TEXT>                                                                                  GO ON TO THE NEXT PAGE . .</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                  TEST 2 63</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="165-167">
+<PASSAGE_TITLE>Questions 165-167 refer to the following letter.</PASSAGE_TITLE>
+<PASSAGE_TEXT>       Multinational Voice Magazine</PASSAGE_TEXT>
+<PASSAGE_TEXT>       PO Box 17999</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Greenlane</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Auckland 1546</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Tuata Wehi</PASSAGE_TEXT>
+<PASSAGE_TEXT>       16 Page Street</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Wellington 6023</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Dear Mr. Wehi,</PASSAGE_TEXT>
+<PASSAGE_TEXT>       On 25 March, your three-month trial subscription to Multinational Voice Magazine</PASSAGE_TEXT>
+<PASSAGE_TEXT>       will expire. To continue to receive this vital news resource, please fill out the</PASSAGE_TEXT>
+<PASSAGE_TEXT>       postage-paid renewal card included with this letter and mail it in before the end of</PASSAGE_TEXT>
+<PASSAGE_TEXT>       this month. You may select from a three-month, six-month, one-year, or two-year</PASSAGE_TEXT>
+<PASSAGE_TEXT>       subscription. Do note that our two-year offer is by far the most economical. Also,</PASSAGE_TEXT>
+<PASSAGE_TEXT>       the one- and two-year options include the "Notable People of the Year" special</PASSAGE_TEXT>
+<PASSAGE_TEXT>       edition.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Thank you once again for choosing Multinational Voice Magazine. We continually</PASSAGE_TEXT>
+<PASSAGE_TEXT>       strive to provide the best commentary on global affairs from a New Zealand</PASSAGE_TEXT>
+<PASSAGE_TEXT>       perspective. To provide your feedback, please visit www.mvmagazine.co.nz and fill</PASSAGE_TEXT>
+<PASSAGE_TEXT>       out our online comment form .</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Sincerely,</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Estelle Pearson, Customer Service Representative</PASSAGE_TEXT>
+<QUESTION id="165">
+<QUESTION_TEXT>Why was the letter sent to Mr. Wehi?           167. What is one thing that Mr. Wehi is</QUESTION_TEXT>
+<OPTION label="A">To report a late payment                        encouraged to do?</OPTION>
+<OPTION label="B">To offer him a refund                            (A) Call Ms. Pearson directly</OPTION>
+<OPTION label="C">To promote a new service                         (B) Offer his opinion</OPTION>
+<OPTION label="D">To remind him to resubscribe                     (C) Attend an event</OPTION>
+<OPTION label="D">Confirm his address</OPTION>
+</QUESTION>
+<QUESTION id="166">
+<QUESTION_TEXT>For about how long has Mr. Wehi been</QUESTION_TEXT>
+<PASSAGE_TEXT>     receiving Multinational Voice Magazine?</PASSAGE_TEXT>
+<OPTION label="A">For three months</OPTION>
+<OPTION label="B">For six months</OPTION>
+<OPTION label="C">For one year</OPTION>
+<OPTION label="D">For two years</OPTION>
+<SOURCE_LINE>64</SOURCE_LINE>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="168-171">
+<PASSAGE_TITLE>Questions 168-171 refer to the following e-mail.</PASSAGE_TITLE>
+<PASSAGE_TEXT>     fl                                             *E-mail*                                            I=</PASSAGE_TEXT>
+<PASSAGE_TEXT>          From:             info@morganaiq2ortshuttle.com</PASSAGE_TEXT>
+<PASSAGE_TEXT>          To:               tgrant@tivimail.com</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Subject:          re: Suitcase on board</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Date:             January 19</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Dear Mr. Grant,</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Thanks for your inquiry. There are a number of suitcases in our storeroom that match</PASSAGE_TEXT>
+<PASSAGE_TEXT>          the description you provided, but we have not found one bearing a name tag identifying</PASSAGE_TEXT>
+<PASSAGE_TEXT>          you as the owner. You will need to come over and find yours on-site at 620 Baker St.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Please note that you will be asked to indicate what time your bus left the airport</PASSAGE_TEXT>
+<PASSAGE_TEXT>          terminal or, better yet, to present your ticket if you still have it.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          We are open 6 A.M.-10 P.M. every day. Please do not delay. Due to the large number of</PASSAGE_TEXT>
+<PASSAGE_TEXT>          items found by our drivers, we have no choice but to limit storage time to 7 days only,</PASSAGE_TEXT>
+<PASSAGE_TEXT>          after which we dispose of the item.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Regards,</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Gina Steiner</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Morgan Airport Shuttle</PASSAGE_TEXT>
+<QUESTION id="168">
+<QUESTION_TEXT>Where does Ms. Steiner work?                        170. What information will Mr. Grant be asked to</QUESTION_TEXT>
+<OPTION label="A">At a transportation service                          provide?</OPTION>
+<OPTION label="B">At an insurance company                               (A) His address</OPTION>
+<OPTION label="C">At a car rental company                               (B) His phone number</OPTION>
+<OPTION label="D">At a travel agency                                    (C) His departure time</OPTION>
+<OPTION label="D">His final destination</OPTION>
+</QUESTION>
+<QUESTION id="169">
+<QUESTION_TEXT>What did Mr. Grant most likely inquire</QUESTION_TEXT>
+<PASSAGE_TEXT>     about?                                              171. What is Mr. Grant advised to do?</PASSAGE_TEXT>
+<OPTION label="A">Reservation options                                   (A) Take advantage of a discount</OPTION>
+<OPTION label="B">Luggage limitations                                   (B) Compare payment options</OPTION>
+<OPTION label="C">Travel expenses                                       (C) Visit the office as soon as possible</OPTION>
+<OPTION label="D">Lost property                                         (D) Print out an electronic ticket</OPTION>
+<PASSAGE_TEXT>                                                                                   GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                  TEST 2 65</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="172-175">
+<PASSAGE_TITLE>Questions 172-175 refer to the following article.</PASSAGE_TITLE>
+<PASSAGE_TEXT>         Spectacular Bridge Created with                 unforeseen adjustments that may disrupt an</PASSAGE_TEXT>
+<PASSAGE_TEXT>                 Super Cranes                            official construction schedule," said Roger</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                         Lee, chief engineer of Redding Builders.</PASSAGE_TEXT>
+<PASSAGE_TEXT>        By Marcia Brunon                                 - [3] - . In this case, the metal anchors that</PASSAGE_TEXT>
+<PASSAGE_TEXT>        March 14                                         connected the bridge to the pylons were</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                         determined to be too small. The new anchors</PASSAGE_TEXT>
+<PASSAGE_TEXT>        Five years ago, the town of Stonewell,           weighed 22 tons, which is within the safe</PASSAGE_TEXT>
+<PASSAGE_TEXT>        situated at the foot of the Marshall             lifting capacity of an RWC451 crane.</PASSAGE_TEXT>
+<PASSAGE_TEXT>        Mountains, decided to finance the building       - [4] - . Engineers reinforced the existing</PASSAGE_TEXT>
+<PASSAGE_TEXT>        of a bridge across the Stonewell River. It was   cranes for extra security, and the cranes</PASSAGE_TEXT>
+<PASSAGE_TEXT>        planned as a much-needed northern route for      performed well.</PASSAGE_TEXT>
+<PASSAGE_TEXT>        the town. - [1] - . The efficiency of the             Today, this postcard-worthy bridge is the</PASSAGE_TEXT>
+<PASSAGE_TEXT>        project was directly attributable to two         pride of Stonewell, featuring viewing</PASSAGE_TEXT>
+<PASSAGE_TEXT>        RWC451        cranes,     manufactured      by   platforms for pedestrians, hikers, and</PASSAGE_TEXT>
+<PASSAGE_TEXT>        Ronsonworks, a company based in England.         visitors at the base of each pier overlooking</PASSAGE_TEXT>
+<PASSAGE_TEXT>            The two identical tower cranes were          the mountainous valley. Construction</PASSAGE_TEXT>
+<PASSAGE_TEXT>        owned by the construction firm Redding           materials and colors harmonize beautifully</PASSAGE_TEXT>
+<PASSAGE_TEXT>        Builders. One crane was assembled at the         with the local environment. All design</PASSAGE_TEXT>
+<PASSAGE_TEXT>        south bank of the river, while the other one     elements, including the piers, viewing</PASSAGE_TEXT>
+<PASSAGE_TEXT>        was placed on a concrete pylon in the center     platforms, and railings, complement the</PASSAGE_TEXT>
+<PASSAGE_TEXT>        of the Stonewell River. - [2] - . The            natural landscape, making the bridge a hit</PASSAGE_TEXT>
+<PASSAGE_TEXT>        assembly of the second crane was                 with everyone from hikers to the truck</PASSAGE_TEXT>
+<PASSAGE_TEXT>        particularly challenging, as it required the     drivers who now include it in their regular</PASSAGE_TEXT>
+<PASSAGE_TEXT>        use of another crane on a floating barge.        route.</PASSAGE_TEXT>
+<PASSAGE_TEXT>             "Any large project is going to require</PASSAGE_TEXT>
+<SOURCE_LINE>66</SOURCE_LINE>
+<QUESTION id="172">
+<QUESTION_TEXT>What is mentioned about the cranes?             174. What is NOT suggested about the</QUESTION_TEXT>
+<OPTION label="A">They are owned by Ronsonworks.                    Stonewell Bridge?</OPTION>
+<OPTION label="B">They were designed specifically for the           (A) It provides a northward exit out of town.</OPTION>
+<PASSAGE_TEXT>          Stonewell Bridge project.                        (B) It was designed for both pedestrians</PASSAGE_TEXT>
+<OPTION label="C">They were assembled on the Stonewell                     and vehicles.</OPTION>
+<PASSAGE_TEXT>                                                                                                             I</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Bridge construction site.                        (C) It was designed to blend with the</PASSAGE_TEXT>
+<OPTION label="D">They weigh more than 22 tons.                            natural setting .</OPTION>
+<OPTION label="D">It required more workers than first</OPTION>
+</QUESTION>
+<QUESTION id="173">
+<QUESTION_TEXT>What is indicated by Mr. Lee?                                estimated.</QUESTION_TEXT>
+<OPTION label="A">His professional specialty is bridge</OPTION>
+<PASSAGE_TEXT>          construction.                              175. In which of the positions marked [1], [2] , [3],</PASSAGE_TEXT>
+<OPTION label="B">He believes that projects like the                and [4] does the following sentence best</OPTION>
+<PASSAGE_TEXT>          Stonewell Bridge always present                  belong?</PASSAGE_TEXT>
+<PASSAGE_TEXT>          problems.</PASSAGE_TEXT>
+<OPTION label="C">He delayed the Stonewell Bridge                  "The project, which was expected to take</OPTION>
+<PASSAGE_TEXT>          project for budgetary reasons .                 four years, was completed in less than</PASSAGE_TEXT>
+<OPTION label="D">His first project as a chief engineer was        three."</OPTION>
+<PASSAGE_TEXT>          the Stonewell Bridge.                            (A) [1]</PASSAGE_TEXT>
+<OPTION label="B">[2]</OPTION>
+<OPTION label="C">[3]</OPTION>
+<OPTION label="D">[4]</OPTION>
+<PASSAGE_TEXT>                                                                                GO ON TO THE NEXT PAGE . .</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                TEST 2 67</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="176-180">
+<PASSAGE_TITLE>Questions 176-180 refer to the following memo and schedule.</PASSAGE_TITLE>
+<PASSAGE_TEXT>            To:         Absalom and Twigg Law Firm employees</PASSAGE_TEXT>
+<PASSAGE_TEXT>            From:       Shawna Montgomery, Office Manager</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Subject:    March plans</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Sent:       February 12</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Attachment: Schedule</PASSAGE_TEXT>
+<PASSAGE_TEXT>            As most of you are aware, our schedule will be a bit challenging during</PASSAGE_TEXT>
+<PASSAGE_TEXT>            the first week in March. Various rooms and offices will need to be vacated</PASSAGE_TEXT>
+<PASSAGE_TEXT>            for certain periods to allow work crews to repaint, recarpet, and replace</PASSAGE_TEXT>
+<PASSAGE_TEXT>            old furniture. Affected employees will need to box up all their office items</PASSAGE_TEXT>
+<PASSAGE_TEXT>            by 3 P.M. on the day before their room is scheduled for work (please see</PASSAGE_TEXT>
+<PASSAGE_TEXT>            the attached schedule). Two teams of workers will be on-site, so more than</PASSAGE_TEXT>
+<PASSAGE_TEXT>            one room at a time will need to be vacated. Note that any rooms due for</PASSAGE_TEXT>
+<PASSAGE_TEXT>            work on Monday must be packed up and vacated by Friday afternoon,</PASSAGE_TEXT>
+<PASSAGE_TEXT>            February 27.</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Boxes will be provided. Leave your boxes in the rooms for the work crews</PASSAGE_TEXT>
+<PASSAGE_TEXT>            to remove. Please label them with your name and office number so that</PASSAGE_TEXT>
+<PASSAGE_TEXT>            the crews can return them to the correct offices once the work is complete.</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Please make arrangements to continue working on your assignments while</PASSAGE_TEXT>
+<PASSAGE_TEXT>            the work crews are in your rooms. The conference room (Room 409) will</PASSAGE_TEXT>
+<PASSAGE_TEXT>            remain available to be used as a workspace during the entire week.</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Another possible option is to request permission from your supervisor to</PASSAGE_TEXT>
+<PASSAGE_TEXT>            telecommute for one or two days.</PASSAGE_TEXT>
+<PASSAGE_TEXT>            Please have patience with these temporary inconveniences and do not</PASSAGE_TEXT>
+<PASSAGE_TEXT>            hesitate to contact me with any questions or concerns.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                             WORK SCHEDULE- March 2 to March 6</PASSAGE_TEXT>
+<PASSAGE_TEXT>          MONDAY, March 2         Room 401               Room 403</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                  (Meeting room)         (Allie Stevens & Matt Beale)</PASSAGE_TEXT>
+<PASSAGE_TEXT>         TUESDAY, March 3</PASSAGE_TEXT>
+<PASSAGE_TEXT>         W EDNESDAY, March 4      Room 402               Room 408</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                  (Marlene Asbury &      (Meeting room)</PASSAGE_TEXT>
+<PASSAGE_TEXT>         THURSDAY, March 5        Luke Roe)</PASSAGE_TEXT>
+<PASSAGE_TEXT>          FRIDAY, March 6         Room 407               Room 404</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                  (Jung Li)              (Elliot Hagburg & Ana Keller)</PASSAGE_TEXT>
+<SOURCE_LINE>68</SOURCE_LINE>
+<QUESTION id="176">
+<QUESTION_TEXT>Why was the memo sent to employees?               179. When should Ms. Asbury be ready to</QUESTION_TEXT>
+<OPTION label="A">To alert them to upcoming renovations              vacate her office?</OPTION>
+<OPTION label="B">To announce that the firm will be                  (A) On February 12</OPTION>
+<PASSAGE_TEXT>          relocating                                        (B) On February 27</PASSAGE_TEXT>
+<OPTION label="C">To request feedback about new                      (C) On March 3</OPTION>
+<PASSAGE_TEXT>          workplace facilities                              (D) On March 4</PASSAGE_TEXT>
+<OPTION label="D">To address their complaints about</OPTION>
+<PASSAGE_TEXT>          building maintenance                         180. What is suggested about Mr. Hagburg?</PASSAGE_TEXT>
+<OPTION label="A">He shares an office with a colleague.</OPTION>
+</QUESTION>
+<QUESTION id="177">
+<QUESTION_TEXT>What are employees instructed to do?                   (B) He will work off-site on March 5.</QUESTION_TEXT>
+<OPTION label="A">Report for work early                              (C) He is the head of a department.</OPTION>
+<OPTION label="B">Schedule a meeting with a manager                  (D) He requested the use of a conference</OPTION>
+<OPTION label="C">Indicate which office supplies are theirs               room.</OPTION>
+<OPTION label="D">Update their contact information online</OPTION>
+</QUESTION>
+<QUESTION id="178">
+<QUESTION_TEXT>What is stated about Room 409 ?</QUESTION_TEXT>
+<OPTION label="A">It will be available for videoconferencing.</OPTION>
+<OPTION label="B">Employees may gather there for work.</OPTION>
+<OPTION label="C">A scheduling meeting will be held there.</OPTION>
+<OPTION label="D">Its furniture will be removed temporarily.</OPTION>
+<PASSAGE_TEXT>                                                                               GO ON TO THE NEXT PAGE •</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                              TEST 2 69</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="181-185">
+<PASSAGE_TITLE>Questions 181-185 refer to the following flyer and form .</PASSAGE_TITLE>
+<PASSAGE_TEXT>       [ivrou Farm</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Fresh Organic Produce-From Our Farm to Your Home</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Livrou Farm in Bromont, Quebec, invites you to participate in its community-supported agriculture</PASSAGE_TEXT>
+<PASSAGE_TEXT>       program. Members enjoy fresh farm produce during our growing season from June to November.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Sign up for a farm share and receive these benefits:</PASSAGE_TEXT>
+<PASSAGE_TEXT>       • More than 30 varieties of in-season vegetables, fruits, and herbs, harvested by our farm staff and</PASSAGE_TEXT>
+<PASSAGE_TEXT>         prepared for you to pick up at our barn</PASSAGE_TEXT>
+<PASSAGE_TEXT>       • A selection of pick-your-own strawberries, apples, and other fruits</PASSAGE_TEXT>
+<PASSAGE_TEXT>       • Access to our member Web site with recipes, farm updates, and a farm newsletter</PASSAGE_TEXT>
+<PASSAGE_TEXT>       • Discounts on events at the farm, such as the annual summer music festival. Events typically cost</PASSAGE_TEXT>
+<PASSAGE_TEXT>         $15, but members pay $10.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Members pick up their shares once a week at the farm. A full-size share is $700 per season, and a</PASSAGE_TEXT>
+<PASSAGE_TEXT>      half-size share is $350. Half-size shareholders receive half the amount of produce each week. All</PASSAGE_TEXT>
+<PASSAGE_TEXT>      other benefits remain the same.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Our farm produce is grown without the use of pesticides or herbicides, and we use only naturally</PASSAGE_TEXT>
+<PASSAGE_TEXT>      occutTing fertilizers. For more information or to register for a membership, please see our Web site</PASSAGE_TEXT>
+<PASSAGE_TEXT>      at www.livroufarm.ca.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                 [ · http://www.livroufarm. ca                                                      I"'</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                          [ivrou Farm                  0</PASSAGE_TEXT>
+<PASSAGE_TEXT>     _j Membership I Home I Locations I Reviews I                                                           ....</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                          f"""""'</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Name: Julien Bernard</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Address: 78 Dorion Stree t , Bromon t , QC J2L 2K7</PASSAGE_TEXT>
+<PASSAGE_TEXT>      First choice pick-up day:  Thursday 00 Friday 0  Saturday 0                        Sunday 0</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Second choice pick-up day: Thursday 0  Friday 00 Saturday 0                        Sunday 0</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Size of share:             Full     0 Half 00</PASSAGE_TEXT>
+<PASSAGE_TEXT>      NOTE: Pick-up is between 3 P.M. and 6 P.M.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Please provide the names of other individuals in your household. These are the only other</PASSAGE_TEXT>
+<PASSAGE_TEXT>      individuals who will be permitted to pick up your weekly share.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Names: Margaux Bernard , Laurent Bernard</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Click HERE to enter payment information on the next page.                                           I-,</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                           "'</PASSAGE_TEXT>
+<SOURCE_LINE>70</SOURCE_LINE>
+<QUESTION id="181">
+<QUESTION_TEXT>What is the purpose of the flyer?              184. What is true about Mr. Bernard's</QUESTION_TEXT>
+<OPTION label="A">To invite people to a farm festival             membership?</OPTION>
+<OPTION label="B">To promote community service                    (A) He must pick up his produce on</OPTION>
+<PASSAGE_TEXT>          opportunities                                       Sundays.</PASSAGE_TEXT>
+<OPTION label="C">To share recipes for healthy eating             (B) He is the only person allowed to pick up</OPTION>
+<OPTION label="D">To advertise a farm program                          his farm share.</OPTION>
+<OPTION label="C">He will be allowed to pick some of his</OPTION>
+</QUESTION>
+<QUESTION id="182">
+<QUESTION_TEXT>What is suggested about the workers at                   own fruit.</QUESTION_TEXT>
+<PASSAGE_TEXT>     Livrou Farm?                                        (D) He will be able to plant and grow his</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                              own vegetables.</PASSAGE_TEXT>
+<OPTION label="A">They collect farm produce from June to</OPTION>
+<PASSAGE_TEXT>          November.</PASSAGE_TEXT>
+<OPTION label="B">They update the farm's Web site once a     185. How much should Mr. Bernard pay for the</OPTION>
+<PASSAGE_TEXT>          week.                                          membership?</PASSAGE_TEXT>
+<OPTION label="C">They create meals using the farm's              (A) $10</OPTION>
+<PASSAGE_TEXT>          products.                                      (B) $15</PASSAGE_TEXT>
+<OPTION label="D">They sell farm products at several local        (C) $350</OPTION>
+<PASSAGE_TEXT>          markets.                                       (D) $700</PASSAGE_TEXT>
+</QUESTION>
+<QUESTION id="183">
+<QUESTION_TEXT>What is NOT indicated about Livrou Farm?</QUESTION_TEXT>
+<OPTION label="A">It publishes a newsletter.</OPTION>
+<OPTION label="B">It uses natural fertilizers.</OPTION>
+<OPTION label="C">It hosts musical performances.</OPTION>
+<OPTION label="D">It offers cooking classes.</OPTION>
+<PASSAGE_TEXT>                                                                            GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                            TE ST 2 71</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="186-190">
+<PASSAGE_TITLE>Questions 186-190 refer to the following advertisements and e-mail.</PASSAGE_TITLE>
+<PASSAGE_TEXT>     [ http://www.communitylinkforum.org/burlingtonvermont</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                  ...</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Professional Seeking Apartment in Burlington                                                t--</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Jorge Janssen <jjanssen@blitzer.com></PASSAGE_TEXT>
+<PASSAGE_TEXT>      Topic: Real Estate and Housing</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Date: June 23</PASSAGE_TEXT>
+<PASSAGE_TEXT>      I accepted a new position in Burlington and need to relocate near the downtown area</PASSAGE_TEXT>
+<PASSAGE_TEXT>      before my start date on August 15. I'm seeking a simple, clean, one-bedroom rental or</PASSAGE_TEXT>
+<PASSAGE_TEXT>      larger, depending on price. A relaxing location with outdoor seating for entertaining</PASSAGE_TEXT>
+<PASSAGE_TEXT>      friends or family would be a plus. I do have a car, but I'd appreciate having good access</PASSAGE_TEXT>
+<PASSAGE_TEXT>      to public transportation. I have a budget of around $1,400 monthly to cover all housing</PASSAGE_TEXT>
+<PASSAGE_TEXT>      costs, including utilities.                                                                 -</PASSAGE_TEXT>
+<PASSAGE_TEXT>     [ http://www.communitylinkforum.org/burlingtonvermont</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                  ...</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Apartment for Rent in Burlington                                                            r-</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Eloise McMahon <mcmahonrental@ hmail.com></PASSAGE_TEXT>
+<PASSAGE_TEXT>      Topic: Real Estate and Housing</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Date: June 23</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Be the first to rent this two-bedroom apartment upon completion of extensive</PASSAGE_TEXT>
+<PASSAGE_TEXT>      renovations. This property is anticipated to be move-in ready on August 1. It will</PASSAGE_TEXT>
+<PASSAGE_TEXT>      feature a clean modern look, new floors throughout, and all-new appliances. The</PASSAGE_TEXT>
+<PASSAGE_TEXT>      apartment is situated downtown, and students are welcome as it's less than ten minutes</PASSAGE_TEXT>
+<PASSAGE_TEXT>      by bus to Denton University. On-street parking is available with a decal from the City</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Transportation Office. Cats or small dogs are potentially permitted, but with conditions,</PASSAGE_TEXT>
+<PASSAGE_TEXT>      so please inquire. $1 ,400 rent also pays for water, sewer, garbage pickups, and general</PASSAGE_TEXT>
+<PASSAGE_TEXT>      upkeep of the property. Electricity and natural gas will be the responsibility of the</PASSAGE_TEXT>
+<PASSAGE_TEXT>      tenant. A one-time security deposit equal to one month's rent should be paid upon</PASSAGE_TEXT>
+<PASSAGE_TEXT>      signing the rental agreement.</PASSAGE_TEXT>
+<SOURCE_LINE>72</SOURCE_LINE>
+<PASSAGE_TEXT>     r[Jb:          II Eloise McMahon <mcmahonrental@ hmail.com></PASSAGE_TEXT>
+<PASSAGE_TEXT>     llfThm:        II Jorge Janssen <jjanssen@blitzer.com></PASSAGE_TEXT>
+<PASSAGE_TEXT>                =</PASSAGE_TEXT>
+<PASSAGE_TEXT>     W:             II Arartment</PASSAGE_TEXT>
+<PASSAGE_TEXT>     I[Q'Bte:          June 24</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Dear Ms. McMahon,                                                                            ...</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                   r--</PASSAGE_TEXT>
+<PASSAGE_TEXT>      I noticed your rental listing on communitylinkforum.org. From the description it sounds as</PASSAGE_TEXT>
+<PASSAGE_TEXT>      if it may be just what I've been looking for. I'm eager to look over the apartment, and I</PASSAGE_TEXT>
+<PASSAGE_TEXT>      just happen to be in Burlington all this week. My last day in town will be Sunday,</PASSAGE_TEXT>
+<PASSAGE_TEXT>      June 30. If the place suits me, I'd want to move in the same day that it' s expected to be</PASSAGE_TEXT>
+<PASSAGE_TEXT>      available. The timing would be perfect! I hope to hear from you soon.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                         I</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                         I</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Thank you.                                                                                         l</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Jorge Janssen</PASSAGE_TEXT>
+<PASSAGE_TEXT>      (802) 555-0122</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                   ...</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                   --,</PASSAGE_TEXT>
+<QUESTION id="186">
+<QUESTION_TEXT>Why is Mr. Janssen relocating?                   189. Why does Mr. Janssen send the e-mail?</QUESTION_TEXT>
+<OPTION label="A">To begin a new job                                (A) To agree to the terms of a rental</OPTION>
+<OPTION label="B">To return to his hometown                              contract</OPTION>
+<OPTION label="C">To study part-time                                (B) To change the details of a residential</OPTION>
+<OPTION label="D">To start his retirement                                advertisement</OPTION>
+<OPTION label="C">To ask about a feature of an apartment</OPTION>
+</QUESTION>
+<QUESTION id="187">
+<QUESTION_TEXT>What aspect of the property does NOT                  (D) To make arrangements to view a</QUESTION_TEXT>
+<PASSAGE_TEXT>     match Mr. Janssen's preferences?                           property</PASSAGE_TEXT>
+<OPTION label="A">The location</OPTION>
+<OPTION label="B">The monthly costs                            190. When does Mr. Janssen wish to start living</OPTION>
+<OPTION label="C">The parking availability                          in the residence?</OPTION>
+<OPTION label="D">The size                                          (A) On June 24</OPTION>
+<OPTION label="B">On June 30</OPTION>
+</QUESTION>
+<QUESTION id="188">
+<QUESTION_TEXT>For what situation does Ms. McMahon                   (C) On August 1</QUESTION_TEXT>
+<PASSAGE_TEXT>     mention that she will need additional                 (D) On August 15</PASSAGE_TEXT>
+<PASSAGE_TEXT>     information?</PASSAGE_TEXT>
+<OPTION label="A">When changes to the decor are</OPTION>
+<PASSAGE_TEXT>          preferred</PASSAGE_TEXT>
+<OPTION label="B">When a tenant is ready to pay a</OPTION>
+<PASSAGE_TEXT>          security deposit</PASSAGE_TEXT>
+<OPTION label="C">When repairs to the apartment are</OPTION>
+<PASSAGE_TEXT>          needed</PASSAGE_TEXT>
+<OPTION label="D">When someone wants to keep an</OPTION>
+<PASSAGE_TEXT>          indoor pet</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                               GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                              TEST 2 73</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="191-195">
+<PASSAGE_TITLE>Questions 191-195 refer to the following product description, customer review, and online response.</PASSAGE_TITLE>
+<PASSAGE_TEXT>          Kitchenware Utopia Food Processor-Model C3</PASSAGE_TEXT>
+<PASSAGE_TEXT>          You will never need to buy another food processor! Our best-selling model,</PASSAGE_TEXT>
+<PASSAGE_TEXT>          the C3, is made of high-quality plastic and easy-to-clean stainless steel.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          FEATURES The unique blade design and powerful motor</PASSAGE_TEXT>
+<PASSAGE_TEXT>          make this a professional-grade appliance, ideal for busy</PASSAGE_TEXT>
+<PASSAGE_TEXT>          restaurants of any size.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          WARRANTY We include a seven-year warranty on all parts</PASSAGE_TEXT>
+<PASSAGE_TEXT>          and labor - a reassurance to you that our food processor</PASSAGE_TEXT>
+<PASSAGE_TEXT>          will last a long time.</PASSAGE_TEXT>
+<PASSAGE_TEXT>          Special purchase price: $319.00/KU Club Members: $299.00</PASSAGE_TEXT>
+<PASSAGE_TEXT>       www.kitchenwareutopia.com/C3/reviews/454</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Rating:   *****</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Review: This product is amazing! I work as a caterer, and I've used a lot of</PASSAGE_TEXT>
+<PASSAGE_TEXT>       different food processors. Kitchenware Utopia's C3 is by far the best I've found.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Its motor is very powerful, and the many different blades and settings make it</PASSAGE_TEXT>
+<PASSAGE_TEXT>       extremely versatile. Th e settings are also straightforward. It's expensive but well</PASSAGE_TEXT>
+<PASSAGE_TEXT>       worth the investment, and since I'm a loyalty club member, the price was</PASSAGE_TEXT>
+<PASSAGE_TEXT>       reasonabl e. My only complaint would be that it's very heavy and therefore not</PASSAGE_TEXT>
+<PASSAGE_TEXT>       as portabl e as I'd hoped. Overall, though, I'm exceptionally satisfied with this</PASSAGE_TEXT>
+<PASSAGE_TEXT>       product.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Posted by Eli Perles on March 27</PASSAGE_TEXT>
+<SOURCE_LINE>74</SOURCE_LINE>
+<PASSAGE_TEXT>                                                                                                       ....</PASSAGE_TEXT>
+<PASSAGE_TEXT>      We are very glad to hear you are happy with our C3 food processor. Customer satisfaction    -</PASSAGE_TEXT>
+<PASSAGE_TEXT>      is our number one priority. We would like to respond to your complaint and provide a</PASSAGE_TEXT>
+<PASSAGE_TEXT>      suggestion regarding your concerns. Our C2 processor might be better suited to your</PASSAGE_TEXT>
+<PASSAGE_TEXT>      professional needs. The C2 offers the same motor size as the C3, but it is much smaller</PASSAGE_TEXT>
+<PASSAGE_TEXT>      than the C3 in general. However, this model does cost slightly more than the C3 . You can</PASSAGE_TEXT>
+<PASSAGE_TEXT>      view the product description by visiting www.kitchenwareutopia.com/C2.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Posted by Kitchenware Utopia Customer Service on March 28                                    ,.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                                  1-</PASSAGE_TEXT>
+<QUESTION id="191">
+<QUESTION_TEXT>What is NOT mentioned in the product             194. Why would the C2 processor likely be</QUESTION_TEXT>
+<PASSAGE_TEXT>     description as a feature of the C3 food               recommended as more suitable for</PASSAGE_TEXT>
+<PASSAGE_TEXT>     processor?                                            Mr. Perles?</PASSAGE_TEXT>
+<OPTION label="A">It is very durable.                               (A) It is inexpensive .</OPTION>
+<OPTION label="B">It is suitable for commercial kitchens.           (B) It is dishwasher safe.</OPTION>
+<OPTION label="C">It is larger than competitors' food               (C) It is easy to assemble.</OPTION>
+<PASSAGE_TEXT>            processors.                                    (D) It is lightweight.</PASSAGE_TEXT>
+<OPTION label="D">It is a popular model.</OPTION>
+</QUESTION>
+<QUESTION id="195">
+<QUESTION_TEXT>In the online response, the word "regarding"</QUESTION_TEXT>
+</QUESTION>
+<QUESTION id="192">
+<QUESTION_TEXT>What is indicated in the customer review?            in paragraph 1, line 3, is closest in meaning</QUESTION_TEXT>
+<OPTION label="A">The C3 comes with detailed                        to</OPTION>
+<PASSAGE_TEXT>           instructions.                                   (A) looking after</PASSAGE_TEXT>
+<OPTION label="B">Mr. Perles is pleased with his purchase.          (B) about</OPTION>
+<OPTION label="C">Kitchenware Utopia's customer service             (C) in comparison</OPTION>
+<PASSAGE_TEXT>         . is very good.                                   (D) admiring</PASSAGE_TEXT>
+<OPTION label="D">Users find the C3 difficult to clean.</OPTION>
+</QUESTION>
+<QUESTION id="193">
+<QUESTION_TEXT>What is suggested about Mr. Perles?</QUESTION_TEXT>
+<OPTION label="A">He paid $299 for the food processor.</OPTION>
+<OPTION label="B">He purchased some optional parts for</OPTION>
+<PASSAGE_TEXT>          the processor.</PASSAGE_TEXT>
+<OPTION label="C">He catered a large-scale event on</OPTION>
+<PASSAGE_TEXT>          March 27.</PASSAGE_TEXT>
+<OPTION label="D">He has never used a food processor</OPTION>
+<PASSAGE_TEXT>          before.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                               GO ON TO THE NEXT PAGE ..</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                                                                              TE ST 2 75</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+<PASSAGE_GROUP questions="196-200">
+<PASSAGE_TITLE>Questions 196-200 refer to the following article, sched ule, and news update.</PASSAGE_TITLE>
+<PASSAGE_TEXT>      Ment Hall to Host Piasek Cup Final</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Ment Hall, which is currently undergoing       Since Ment Hall is the only major arena</PASSAGE_TEXT>
+<PASSAGE_TEXT>      extensive renovation, will be ready to         in the country that has never hosted a</PASSAGE_TEXT>
+<PASSAGE_TEXT>      host the final game of the Piasek Cup          Piasek Cup event, the hall's owners were</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Volleyball Championship to be held in          proud to have been chosen to host this</PASSAGE_TEXT>
+<PASSAGE_TEXT>      Warsaw this June. Although the project         year's finale . The final game will</PASSAGE_TEXT>
+<PASSAGE_TEXT>      has been in the works for some time, it        inaugurate the refurbished hall. The event</PASSAGE_TEXT>
+<PASSAGE_TEXT>      was the opportunity to host this               is expected to draw thousands of</PASSAGE_TEXT>
+<PASSAGE_TEXT>      championship that provided the economic        volleyball fans, and the organizers are</PASSAGE_TEXT>
+<PASSAGE_TEXT>      incentive to push the project to its           confident that Ment Hall will live up to</PASSAGE_TEXT>
+<PASSAGE_TEXT>      completion. City officials have confirmed      the occasion. Seating 19,000 spectators,</PASSAGE_TEXT>
+<PASSAGE_TEXT>      that the construction is progressing           Ment Hall will be double its previous</PASSAGE_TEXT>
+<PASSAGE_TEXT>      according to schedule and will be              size.</PASSAGE_TEXT>
+<PASSAGE_TEXT>      complete well before the finals of the</PASSAGE_TEXT>
+<PASSAGE_TEXT>      championship.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                    Piasek Cup Volleyball Championship</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Quarterfinal Games</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Venezuela-Australia       Poland-France         Brazil-USA           Cuba-Egypt</PASSAGE_TEXT>
+<PASSAGE_TEXT>       10 June, 3:00P.M.         10 June, 6:00P.M.     11 June, 3:00P.M.    11 June, 6:00P.M.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Loave Arena,              Timpani Hall,         Polana Center,       Mistrz Arena,</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Bydgoszcz                 Katowice              Cracow               Wroclaw</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Semifinal Games</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Winners of 10 June games                  Winners of 11 June games</PASSAGE_TEXT>
+<PASSAGE_TEXT>       13 June, 3:00 P.M. Timpani Hall, Katowice 13 June, 3:00P.M. Polana Center, Cracow</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Final Game</PASSAGE_TEXT>
+<PASSAGE_TEXT>       16 June, 6:00P.M.</PASSAGE_TEXT>
+<PASSAGE_TEXT>       Ment Hall, Warsaw</PASSAGE_TEXT>
+<PASSAGE_TEXT>      NOTE: Tickets for the final game are selling fast, so don't wait until</PASSAGE_TEXT>
+<PASSAGE_TEXT>      after the semifinal games to order. Reserved seating only, no general</PASSAGE_TEXT>
+<PASSAGE_TEXT>      admission . No refunds .</PASSAGE_TEXT>
+<SOURCE_LINE>76</SOURCE_LINE>
+<PASSAGE_TEXT>                                     News Update</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                HALLAX RADIO 108.3 FM</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                Sports-Volleyball, 10 June</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                At 3:00 P.M., Venezuela will take on Australia</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                for qualification to the semifinals. Our guest</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                announcer will be Vin Cote, retired coach of</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                last year 's winning team from Canada.</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                At 6:00 P.M., host team Poland will face off</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                against France. The game will be cove!·ed live</PASSAGE_TEXT>
+<PASSAGE_TEXT>                                by Jeremy Bosko.</PASSAGE_TEXT>
+<QUESTION id="196">
+<QUESTION_TEXT>In the article, the word "draw" in paragraph        199. In the schedule, what are people advised to</QUESTION_TEXT>
+<PASSAGE_TEXT>     2, line 7, is closest in meaning to                      do?</PASSAGE_TEXT>
+<OPTION label="A">promote                                               (A) Request a refund for tickets that they</OPTION>
+<OPTION label="B">attract                                                    do not plan to use</OPTION>
+<OPTION label="C">sketch                                                (B) Order tickets immediately after the</OPTION>
+<OPTION label="D">remove                                                     semifinal games</OPTION>
+<OPTION label="C">Buy tickets for the final game as soon</OPTION>
+</QUESTION>
+<QUESTION id="197">
+<QUESTION_TEXT>What will be changed about Ment Hall?                          as possible</QUESTION_TEXT>
+<OPTION label="A">Its ownership                                         (D) Arrive at the final game early</OPTION>
+<OPTION label="B">Its ticket prices</OPTION>
+<OPTION label="C">Its seating capacity                            200. Where will Mr. Cote be reporting from?</OPTION>
+<OPTION label="D">Its location                                          (A) Bydgoszcz</OPTION>
+<OPTION label="B">Katowice</OPTION>
+</QUESTION>
+<QUESTION id="198">
+<QUESTION_TEXT>When will the first game be held at a new                 (C) Cracow</QUESTION_TEXT>
+<PASSAGE_TEXT>     host venue?                                               (D) Wroclaw</PASSAGE_TEXT>
+<OPTION label="A">On June 10</OPTION>
+<OPTION label="B">On June 13</OPTION>
+<OPTION label="C">On June 14</OPTION>
+<OPTION label="D">On June 16</OPTION>
+<TEST_INFO>Stop! This is the end of the test. If you finish before time is called, you may go</TEST_INFO>
+<TEST_INFO>back to Parts 5, 6, and 7 and check your work.</TEST_INFO>
+<PASSAGE_TEXT>                                                                                                TEST 2 77</PASSAGE_TEXT>
+</QUESTION>
+</PASSAGE_GROUP>
+</PART>
+<END_TEST/>

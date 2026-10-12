@@ -1,0 +1,364 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hệ Thống Khảo Thí TOEIC Reading - Full Workflow</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+  <style>
+    :root {
+      --primary: #163b65;
+      --secondary: #2563eb;
+      --bg: #0b1320;
+      --card-bg: #131d2e;
+      --card-border: #1e293b;
+      --text-main: #f8fafc;
+      --text-sub: #94a3b8;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: 'Inter', sans-serif;
+    }
+    body {
+      background: radial-gradient(circle at top right, #1e3a8a 0%, #0b1320 70%);
+      color: var(--text-main);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+    header {
+      padding: 2.5rem 2rem 2rem;
+      text-align: center;
+      border-bottom: 1px solid var(--card-border);
+      background: rgba(11, 19, 32, 0.75);
+      backdrop-filter: blur(16px);
+    }
+    header h1 {
+      font-size: 2.2rem;
+      font-weight: 800;
+      letter-spacing: -0.02em;
+      background: linear-gradient(135deg, #60a5fa, #93c5fd);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      color: var(--text-sub);
+      font-size: 1rem;
+      max-width: 650px;
+      margin: 0 auto;
+      line-height: 1.5;
+    }
+    .badge-bar {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0.75rem;
+      margin-top: 1.25rem;
+    }
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      padding: 0.4rem 0.9rem;
+      border-radius: 9999px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      background: #1e293b;
+      color: #94a3b8;
+      border: 1px solid #334155;
+    }
+    .badge.active {
+      background: rgba(37, 99, 235, 0.25);
+      color: #60a5fa;
+      border-color: #2563eb;
+    }
+    main {
+      flex: 1;
+      max-width: 1240px;
+      width: 100%;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem;
+    }
+    .section-title {
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: #cbd5e1;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+      gap: 1.5rem;
+      margin-bottom: 3rem;
+    }
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 1.75rem;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+      text-decoration: none;
+      color: inherit;
+      position: relative;
+      overflow: hidden;
+    }
+    .card::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 4px;
+      background: linear-gradient(90deg, #2563eb, #38bdf8);
+      opacity: 0;
+      transition: opacity 0.2s;
+    }
+    .card:hover {
+      transform: translateY(-5px);
+      border-color: #3b82f6;
+      box-shadow: 0 16px 36px -12px rgba(37, 99, 235, 0.4);
+    }
+    .card:hover::before {
+      opacity: 1;
+    }
+    .card-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 1.25rem;
+    }
+    .icon-wrapper {
+      width: 48px;
+      height: 48px;
+      border-radius: 12px;
+      background: rgba(37, 99, 235, 0.15);
+      color: #60a5fa;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .step-pill {
+      font-size: 0.75rem;
+      font-weight: 700;
+      padding: 0.3rem 0.75rem;
+      border-radius: 9999px;
+      text-transform: uppercase;
+      letter-spacing: 0.05em;
+      background: #1e293b;
+      color: #38bdf8;
+      border: 1px solid #334155;
+    }
+    .card-content h3 {
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: #f1f5f9;
+      margin-bottom: 0.5rem;
+    }
+    .card-content p {
+      font-size: 0.88rem;
+      color: var(--text-sub);
+      line-height: 1.5;
+      margin-bottom: 1.5rem;
+    }
+    .features-list {
+      list-style: none;
+      margin-bottom: 1.5rem;
+    }
+    .features-list li {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      color: #cbd5e1;
+      margin-bottom: 0.4rem;
+    }
+    .features-list li span.material-symbols-outlined {
+      color: #10b981;
+      font-size: 16px;
+    }
+    .card-footer {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-top: 1rem;
+      border-top: 1px solid rgba(255, 255, 255, 0.08);
+      font-size: 0.9rem;
+      font-weight: 600;
+      color: #38bdf8;
+    }
+    .card:hover .card-footer {
+      color: #60a5fa;
+    }
+    footer {
+      text-align: center;
+      padding: 1.75rem;
+      font-size: 0.85rem;
+      color: #64748b;
+      border-top: 1px solid var(--card-border);
+      background: rgba(11, 19, 32, 0.8);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Hệ Thống Đánh Giá Năng Lực TOEIC Reading</h1>
+    <p>Đầy đủ 5 tính năng: Upload Word, Quản lý & Chỉnh sửa đề, Danh sách đề chọn thi, Phòng thi trực tuyến và Trả điểm chi tiết.</p>
+    <div class="badge-bar">
+      <span class="badge active"><span class="material-symbols-outlined" style="font-size: 16px;">verified</span> 5/5 Chức năng hoàn tất</span>
+      <span class="badge"><span class="material-symbols-outlined" style="font-size: 16px;">database</span> Lưu trữ LocalStorage & JSON</span>
+      <span class="badge"><span class="material-symbols-outlined" style="font-size: 16px;">palette</span> Google Stitch Design ID: 4788327547434450586</span>
+    </div>
+  </header>
+
+  <main>
+    <div class="section-title">
+      <span class="material-symbols-outlined">menu_book</span> Quy trình 5 Chức Năng Hoàn Chỉnh
+    </div>
+
+    <div class="grid">
+      <!-- CN 1 & 2 -->
+      <a class="card" href="admin_import_preview.html">
+        <div>
+          <div class="card-header">
+            <div class="icon-wrapper">
+              <span class="material-symbols-outlined">upload_file</span>
+            </div>
+            <span class="step-pill">Chức năng 1 & 2</span>
+          </div>
+          <div class="card-content">
+            <h3>Upload Word & Chỉnh sửa Đề</h3>
+            <p>Tải lên file Word (.docx), trích xuất tự động thẻ & câu hỏi và cho phép biên tập, thay đổi câu hỏi, đáp án đúng trực tiếp.</p>
+            <ul class="features-list">
+              <li><span class="material-symbols-outlined">check_circle</span> Upload file Word (.docx) nhận diện Part 5-7</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Sửa nhanh câu hỏi & chọn đáp án đúng A/B/C/D</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Nút "Lưu đề thi vào hệ thống"</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Mở giao diện Upload & Sửa đề</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+      </a>
+
+      <!-- CN 3 & Dashboard -->
+      <a class="card" href="admin_dashboard.html">
+        <div>
+          <div class="card-header">
+            <div class="icon-wrapper">
+              <span class="material-symbols-outlined">dashboard</span>
+            </div>
+            <span class="step-pill">Quản trị & CN 3</span>
+          </div>
+          <div class="card-content">
+            <h3>Admin Dashboard & Ngân hàng đề</h3>
+            <p>Bảng điều khiển quản lý ngân hàng đề thi, theo dõi số lượng câu hỏi, xóa đề thi hoặc mở liên kết làm bài thi.</p>
+            <ul class="features-list">
+              <li><span class="material-symbols-outlined">check_circle</span> Thống kê thời gian thực số lượng đề thi</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Tìm kiếm & lọc đề theo trạng thái</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Xóa hoặc chuyển thẳng sang sửa nội dung</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Mở bảng quản trị</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+      </a>
+
+      <!-- CN 3: Student Exam List -->
+      <a class="card" href="student_exam_list.html">
+        <div>
+          <div class="card-header">
+            <div class="icon-wrapper">
+              <span class="material-symbols-outlined">format_list_bulleted</span>
+            </div>
+            <span class="step-pill">Chức năng 3</span>
+          </div>
+          <div class="card-content">
+            <h3>Danh sách đề thi cho Thí sinh</h3>
+            <p>Giao diện thân thiện để học viên tìm kiếm, duyệt qua các đề thi sẵn có và bấm chọn đề muốn làm.</p>
+            <ul class="features-list">
+              <li><span class="material-symbols-outlined">check_circle</span> Hiển thị tất cả đề thi mới cập nhật từ Word</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Thống kê thời gian làm bài, số lượng câu</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Nút "Bắt đầu thi" chuyển sang phòng thi</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Xem danh sách đề cho học viên</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+      </a>
+
+      <!-- CN 4: Take exam -->
+      <a class="card" href="student_take_exam.html">
+        <div>
+          <div class="card-header">
+            <div class="icon-wrapper">
+              <span class="material-symbols-outlined">quiz</span>
+            </div>
+            <span class="step-pill">Chức năng 4</span>
+          </div>
+          <div class="card-content">
+            <h3>Phòng thi Trực tiếp (Taking Exam)</h3>
+            <p>Trải nghiệm làm bài thi TOEIC đầy đủ với chia đôi màn hình đọc bài (Part 6, 7), đồng hồ đếm ngược 75 phút, ma trận 100 câu hỏi và lưu tiến độ.</p>
+            <ul class="features-list">
+              <li><span class="material-symbols-outlined">check_circle</span> Ma trận câu hỏi chuyển qua lại nhanh</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Đánh dấu câu phân vân để xem lại</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Nộp bài & tự động nộp khi hết giờ</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Vào phòng thi làm bài</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+      </a>
+
+      <!-- CN 5: Result -->
+      <a class="card" href="student_exam_result.html">
+        <div>
+          <div class="card-header">
+            <div class="icon-wrapper">
+              <span class="material-symbols-outlined">military_tech</span>
+            </div>
+            <span class="step-pill">Chức năng 5</span>
+          </div>
+          <div class="card-content">
+            <h3>Hiển thị Kết Quả & Báo Cáo Thi</h3>
+            <p>Báo cáo điểm số chi tiết quy đổi chuẩn TOEIC (tối đa 495 điểm), phân tích số câu đúng/sai theo Part 5, 6, 7 và bảng giải thích đáp án từng câu.</p>
+            <ul class="features-list">
+              <li><span class="material-symbols-outlined">check_circle</span> Thang điểm quy đổi chuẩn ETS 495</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Biểu đồ chính xác %, thời gian làm bài</li>
+              <li><span class="material-symbols-outlined">check_circle</span> Chi tiết câu đúng/sai + lời giải thích</li>
+            </ul>
+          </div>
+        </div>
+        <div class="card-footer">
+          <span>Xem kết quả làm bài</span>
+          <span class="material-symbols-outlined">arrow_forward</span>
+        </div>
+      </a>
+    </div>
+  </main>
+
+  <footer>
+    Dự án được trích xuất và triển khai từ Google Stitch Design (ID: 4788327547434450586) • Antigravity IDE
+  </footer>
+
+</body>
+</html>

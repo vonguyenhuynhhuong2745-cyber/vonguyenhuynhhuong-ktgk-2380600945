@@ -1,0 +1,925 @@
+{
+  "id": "exam_toeic_real_01",
+  "title": "READING TEST",
+  "description": "Đề thi TOEIC Reading trích xuất chuẩn hóa từ file Word (.docx) với đầy đủ Part 5, 6, 7.",
+  "durationMinutes": 75,
+  "totalQuestions": 63,
+  "questions": [
+    {
+      "id": 101,
+      "part": 5,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 101: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 101,
+      "part": 5,
+      "text": "Ms. Carpenter will be attending the            105. Ashburn Bank's online service has been in conference with ------- marketing team .            high demand -------.",
+      "options": {
+        "A": "she (A) lateness",
+        "B": "her (B) later",
+        "C": "hers (C) lately",
+        "D": "herself (D) latest"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 101: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 102,
+      "part": 5,
+      "text": "------- the last ten years, Bay City's         106. The------- of videos to electronic press population has grown by about 27 percent.           releases can help companies showcase",
+      "options": {
+        "A": "As their products.",
+        "B": "Against (A) content",
+        "C": "During (B) addition",
+        "D": "promotion"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 102: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 103,
+      "part": 5,
+      "text": "Please congratulate Alan Schmit, ------- of the Leadership Award in Nursing at Knoll       107. Ms. Hyun is reviewing the training manual Hospital.                                           to see if updates -------.",
+      "options": {
+        "A": "won (A) have need",
+        "B": "wins (B) needing",
+        "C": "winning (C) are needed",
+        "D": "winner (D) to be needed"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 103: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 104,
+      "part": 5,
+      "text": "Ireland's largest software producer will       108. When leaving the auditorium, please exit ------- be opening a large facility in Cork.        ------- the doors on the lower level. 50",
+      "options": {
+        "A": "soon (A) except",
+        "B": "such (B) inside",
+        "C": "ever (C) without",
+        "D": "like (D) through"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 104: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 109,
+      "part": 5,
+      "text": "The judges for this year's screenplay         115. Daniel Nishida, the chief supply officer, competition include ------- from Hanovi            asked that ------- be given full responsibility Studios.                                           for approving all invoices .",
+      "options": {
+        "A": "represents (A) he",
+        "B": "representatives (B) him",
+        "C": "represented (C) his",
+        "D": "represent (D) himself"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 109: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 110,
+      "part": 5,
+      "text": "I have attached my resume detailing my        116. In preparation for Mr. Kumar's retirement at ------- experience in the hotel industry.          the end of March, the Carolex Corporation",
+      "options": {
+        "A": "extensive will need to ------- a new facilities director.",
+        "B": "punctual (A) resume",
+        "C": "prospective (B) compete",
+        "D": "conduct"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 110: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 111,
+      "part": 5,
+      "text": "Remember to check the spelling of Mr. Kamashi 's name when ------- the          117. The team's contributions to the Ripton document.                                          Group's marketing plan were very ------- 11 2. Residents visited City Hall to ask ------- developers will preserve the historic        118. ------- receiving the engineering award, properties.                                       Ms. Kwon made a point of thanking",
+      "options": {
+        "A": "although longtime mentors.",
+        "B": "since (A) Onto",
+        "C": "whether (B) Unlike",
+        "D": "Upon"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 111: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 113,
+      "part": 5,
+      "text": "The Ford Group's proposed advertising campaign is by far the most ------- we have   119. Please read the list of ------- qualifications to seen so far.                                       ensure that you have the necessary",
+      "options": {
+        "A": "innovate education and experience for the position.",
+        "B": "innovative (A) slight",
+        "C": "innovations (B) equal",
+        "D": "essential"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 113: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 114,
+      "part": 5,
+      "text": "Solei Landscaping announced that the design for the Cherry Hill building complex   120. Choosing the best software tool to eliminate is ------- complete .                               computer viruses is rarely simple, ------- it is GO ON TO THE NEXT PAGE • TEST 2 51",
+      "options": {
+        "A": "almost . important to seek expert advice.",
+        "B": "nearby (A) why",
+        "C": "anytime (B) then",
+        "D": "so"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 114: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 121,
+      "part": 5,
+      "text": "Ms. Delgado would like to meet with all loan     126. The Williamsport Hotel is an ideal venue for officers ------- reviewing any more loan              the conference because of its ------- to the applications.                                         airport.",
+      "options": {
+        "A": "now that (A) achievement",
+        "B": "as though (B) proximity",
+        "C": "before (C) competence",
+        "D": "often (D) exception"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 121: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 122,
+      "part": 5,
+      "text": "Cedar Branch Hill has a ------- as a             127. The second training session is for business-friendly environment that provides           employees ------- responsibilities include efficient licensing and other legal processes.        processing payroll forms.",
+      "options": {
+        "A": "prediction (A) whose",
+        "B": "courtesy (B) which",
+        "C": "reputation (C) what",
+        "D": "statement (D) who"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 122: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 123,
+      "part": 5,
+      "text": "The actors held an additional rehearsal          128. ------- poorly the high-speed printer may be ------- perfect their performance in the final        functioning, it is still making copies that are scene .                                               adequate for our purposes.",
+      "options": {
+        "A": "considerably (A) Rather",
+        "B": "in order to (B) Seldom",
+        "C": "nevertheless (C) However",
+        "D": "as a result of (D) Thoroughly"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 123: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 124,
+      "part": 5,
+      "text": "RZT Technology will double the size of its       129. The long-awaited Weka 2XG digital camera Toronto laboratory to -------the                      will finally be ------- at a product exhibition organization's rapid growth .                         on August 16.",
+      "options": {
+        "A": "assign (A) reduced",
+        "B": "investigate (B) unveiled",
+        "C": "experience (C) consulted",
+        "D": "accommodate (D) resolved"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 124: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 125,
+      "part": 5,
+      "text": "Even though Smithton Electronics' second         130. Northeast Community Finance ------- an quarter was not -------, the company plans            online system in order to shorten service to invest large sums on research.                     lines at branch locations. 52 Four answer choices for each question are given below the text. Select the best answer to complete I the text. Then mark the letter (A), (B), (C), or (D) on your answer sheet.",
+      "options": {
+        "A": "profitable (A) has implemented",
+        "B": "profiting (B) to be implementing",
+        "C": "profitability (C) to have been implementing",
+        "D": "profitably (D) is implemented"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 125: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 5."
+    },
+    {
+      "id": 132,
+      "part": 6,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 132: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 134,
+      "part": 6,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 134: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 131,
+      "part": 6,
+      "text": "(A) transformed                                 133. (A) readiness",
+      "options": {
+        "A": "Option A",
+        "B": "related (B) readies",
+        "C": "collected (C) readiest",
+        "D": "planted (D) ready"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 131: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 132,
+      "part": 6,
+      "text": "(A) We are here to answer your                  134. (A) study",
+      "options": {
+        "A": "Option A",
+        "B": "For most projects, we use trees from (C) order",
+        "C": "Some trees have specific growing",
+        "D": "Under normal conditions, nursery stock"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 132: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 135,
+      "part": 6,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 135: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 137,
+      "part": 6,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 137: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 135,
+      "part": 6,
+      "text": "(A) moving                                           138. (A) Feel free to share this news with any",
+      "options": {
+        "A": "Option A",
+        "B": "renovating interested friends.",
+        "C": "Contact Henwith Home Supply if you are",
+        "D": "opening material."
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 135: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 136,
+      "part": 6,
+      "text": "(A) until                                                      still waiting for a response.",
+      "options": {
+        "A": "Option A",
+        "B": "following (D) Access to the main entrance will be",
+        "C": "according to blocked by construction.",
+        "D": "for"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 136: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 137,
+      "part": 6,
+      "text": "(A) trainer 54",
+      "options": {
+        "A": "Option A",
+        "B": "training",
+        "C": "train",
+        "D": "trained"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 137: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 139,
+      "part": 6,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 139: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 140,
+      "part": 6,
+      "text": "141.",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 140: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 139,
+      "part": 6,
+      "text": "(A) confirm                                      141. (A) temporary",
+      "options": {
+        "A": "Option A",
+        "B": "confirmation (B) existing",
+        "C": "has confirmed (C) corrected",
+        "D": "will confirm (D) proposed"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 139: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 140,
+      "part": 6,
+      "text": "(A) Ms. Amon's performance at the                142. (A) adjacent to",
+      "options": {
+        "A": "Option A",
+        "B": "The project had been delayed (C) instead of",
+        "C": "Student enrollment has decreased",
+        "D": "The original conservatory is being"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 140: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 146,
+      "part": 6,
+      "text": "",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 146: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 143,
+      "part": 6,
+      "text": "(A) purchase                                       145. (A) verification",
+      "options": {
+        "A": "Option A",
+        "B": "review (B) verified",
+        "C": "gift (C) verify",
+        "D": "demonstration (D) verifies"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 143: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 144,
+      "part": 6,
+      "text": "(A) We hope you will enjoy the product for         146. (A) mine 56",
+      "options": {
+        "A": "Option A",
+        "B": "It is covered in the troubleshooting (C) theirs",
+        "C": "This defect will eventually interfere with",
+        "D": "This special feature is unavailable on"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 144: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 6."
+    },
+    {
+      "id": 147,
+      "part": 7,
+      "text": "Where would the notice likely be seen?           148. What are customers asked to do?",
+      "options": {
+        "A": "In an airport (A) Provide feedback",
+        "B": "In a bus station (B) Buy a round-trip ticket",
+        "C": "In a train station (C) Take advantage of a discount",
+        "D": "In a ferry terminal (D) Join a customer loyalty program"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 147: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 149,
+      "part": 7,
+      "text": "What task was Mr. Mather given?                 150. At 9:42A.M., what does Ms. Maldini most 58",
+      "options": {
+        "A": "To send out contracts likely mean when she writes \"Sure thing\"?",
+        "B": "To repair the photocopier (A) She can lend Mr. Mather her card .",
+        "C": "To monitor employee attendance (B) She will return to the office.",
+        "D": "She can copy the agreements."
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 149: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 151,
+      "part": 7,
+      "text": "What is the purpose of the memo?             152. What are staff members asked to do?",
+      "options": {
+        "A": "To explain a new policy (A) Bring their own beverages to work",
+        "B": "To discourage long breaks (B) Leave payments in a container",
+        "C": "To provide a budget update (C) Submit requests for supplies",
+        "D": "To address staff complaints (D) Keep the kitchenette tidy"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 151: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 153,
+      "part": 7,
+      "text": "What is indicated about the museum?               155. Who was pra ised by Mr. Lerner?",
+      "options": {
+        "A": "It is promoting an upcoming exhibit on (A) Ms. Acosta",
+        "B": "It is known for its sculpture exhibits. (C) Ms. Hong",
+        "C": "It will be closed for renovations in April. (D) Mr. Carmody",
+        "D": "Its upcoming exhibit is free for museum"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 153: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 154,
+      "part": 7,
+      "text": "Who is Ms. Breeland? 60",
+      "options": {
+        "A": "Ajournalist",
+        "B": "An artist",
+        "C": "A museum curator",
+        "D": "An art critic"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 154: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 156,
+      "part": 7,
+      "text": "Why has the price of a project been              157. How much money will Mr. Copeland most",
+      "options": {
+        "A": "The client is providing all the materials. (A) $162",
+        "B": "The client wants to match a (B) $222",
+        "C": "The contractor installed countertops (D) $1,084",
+        "D": "The contractor overestimated the cost"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 156: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 158,
+      "part": 7,
+      "text": "What most likely is Ms. Pawar's occupation?      160. In which of the positions marked [1], [2], [3],",
+      "options": {
+        "A": "Architect and [4] does the following sentence best",
+        "B": "Writer belong?",
+        "C": "Travel agent",
+        "D": "Conference organizer \"You will also find the complete conference"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 158: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 159,
+      "part": 7,
+      "text": "What is NOT a benefit of conference                   (A) [1] 62",
+      "options": {
+        "A": "A tour of Mexico City",
+        "B": "A hotel room upgrade",
+        "C": "Admission to a dinner",
+        "D": "Reduced registration fees"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 159: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 161,
+      "part": 7,
+      "text": "What are the writers discussing?                   163. At 4:34P.M., why most likely does",
+      "options": {
+        "A": "Where to hold a company banquet Mr. Webber write, \"That's too bad\"?",
+        "B": "What restaurant serves the best food (A) He wanted to try a new restaurant.",
+        "C": "What is on the menu at Ocho Coronas (B) Mr. Foxx cannot complete a project.",
+        "D": "He has a scheduling conflict."
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 161: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 162,
+      "part": 7,
+      "text": "What information does Mr. Foxx provide",
+      "options": {
+        "A": "People have recommended it to him. (A) Research nearby restaurants",
+        "B": "It usually opens early on Fridays. (B) Work extra hours tomorrow",
+        "C": "The food there is not very authentic. (C) Join his coworkers for a meal",
+        "D": "It is no longer in business. (D) Have food delivered to the office"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 162: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 165,
+      "part": 7,
+      "text": "Why was the letter sent to Mr. Wehi?           167. What is one thing that Mr. Wehi is",
+      "options": {
+        "A": "To report a late payment encouraged to do?",
+        "B": "To offer him a refund (A) Call Ms. Pearson directly",
+        "C": "To promote a new service (B) Offer his opinion",
+        "D": "Confirm his address"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 165: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 166,
+      "part": 7,
+      "text": "For about how long has Mr. Wehi been 64",
+      "options": {
+        "A": "For three months",
+        "B": "For six months",
+        "C": "For one year",
+        "D": "For two years"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 166: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 168,
+      "part": 7,
+      "text": "Where does Ms. Steiner work?                        170. What information will Mr. Grant be asked to",
+      "options": {
+        "A": "At a transportation service provide?",
+        "B": "At an insurance company (A) His address",
+        "C": "At a car rental company (B) His phone number",
+        "D": "His final destination"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 168: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 169,
+      "part": 7,
+      "text": "What did Mr. Grant most likely inquire",
+      "options": {
+        "A": "Reservation options (A) Take advantage of a discount",
+        "B": "Luggage limitations (B) Compare payment options",
+        "C": "Travel expenses (C) Visit the office as soon as possible",
+        "D": "Lost property (D) Print out an electronic ticket"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 169: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 172,
+      "part": 7,
+      "text": "What is mentioned about the cranes?             174. What is NOT suggested about the",
+      "options": {
+        "A": "They are owned by Ronsonworks. Stonewell Bridge?",
+        "B": "They were designed specifically for the (A) It provides a northward exit out of town.",
+        "C": "They were assembled on the Stonewell and vehicles.",
+        "D": "It required more workers than first"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 172: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 173,
+      "part": 7,
+      "text": "What is indicated by Mr. Lee?                                estimated.",
+      "options": {
+        "A": "His professional specialty is bridge",
+        "B": "[2]",
+        "C": "[3]",
+        "D": "[4]"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 173: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 176,
+      "part": 7,
+      "text": "Why was the memo sent to employees?               179. When should Ms. Asbury be ready to",
+      "options": {
+        "A": "He shares an office with a colleague.",
+        "B": "To announce that the firm will be (A) On February 12",
+        "C": "To request feedback about new (C) On March 3",
+        "D": "To address their complaints about"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 176: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 177,
+      "part": 7,
+      "text": "What are employees instructed to do?                   (B) He will work off-site on March 5.",
+      "options": {
+        "A": "Report for work early (C) He is the head of a department.",
+        "B": "Schedule a meeting with a manager (D) He requested the use of a conference",
+        "C": "Indicate which office supplies are theirs room.",
+        "D": "Update their contact information online"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 177: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 178,
+      "part": 7,
+      "text": "What is stated about Room 409 ?",
+      "options": {
+        "A": "It will be available for videoconferencing.",
+        "B": "Employees may gather there for work.",
+        "C": "A scheduling meeting will be held there.",
+        "D": "Its furniture will be removed temporarily."
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 178: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 181,
+      "part": 7,
+      "text": "What is the purpose of the flyer?              184. What is true about Mr. Bernard's",
+      "options": {
+        "A": "To invite people to a farm festival membership?",
+        "B": "To promote community service (A) He must pick up his produce on",
+        "C": "He will be allowed to pick some of his",
+        "D": "To advertise a farm program his farm share."
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 181: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 182,
+      "part": 7,
+      "text": "What is suggested about the workers at                   own fruit.",
+      "options": {
+        "A": "They collect farm produce from June to",
+        "B": "They update the farm's Web site once a 185. How much should Mr. Bernard pay for the",
+        "C": "They create meals using the farm's (A) $10",
+        "D": "They sell farm products at several local (C) $350"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 182: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 183,
+      "part": 7,
+      "text": "What is NOT indicated about Livrou Farm?",
+      "options": {
+        "A": "It publishes a newsletter.",
+        "B": "It uses natural fertilizers.",
+        "C": "It hosts musical performances.",
+        "D": "It offers cooking classes."
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 183: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 186,
+      "part": 7,
+      "text": "Why is Mr. Janssen relocating?                   189. Why does Mr. Janssen send the e-mail?",
+      "options": {
+        "A": "To begin a new job (A) To agree to the terms of a rental",
+        "B": "To return to his hometown contract",
+        "C": "To ask about a feature of an apartment",
+        "D": "To start his retirement advertisement"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 186: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 187,
+      "part": 7,
+      "text": "What aspect of the property does NOT                  (D) To make arrangements to view a",
+      "options": {
+        "A": "The location",
+        "B": "On June 30",
+        "C": "The parking availability in the residence?",
+        "D": "The size (A) On June 24"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 187: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 188,
+      "part": 7,
+      "text": "For what situation does Ms. McMahon                   (C) On August 1",
+      "options": {
+        "A": "When changes to the decor are",
+        "B": "When a tenant is ready to pay a",
+        "C": "When repairs to the apartment are",
+        "D": "When someone wants to keep an"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 188: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 191,
+      "part": 7,
+      "text": "What is NOT mentioned in the product             194. Why would the C2 processor likely be",
+      "options": {
+        "A": "It is very durable. (A) It is inexpensive .",
+        "B": "It is suitable for commercial kitchens. (B) It is dishwasher safe.",
+        "C": "It is larger than competitors' food (C) It is easy to assemble.",
+        "D": "It is a popular model."
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 191: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 195,
+      "part": 7,
+      "text": "In the online response, the word \"regarding\"",
+      "options": {
+        "A": "Option A",
+        "B": "Option B",
+        "C": "Option C",
+        "D": "Option D"
+      },
+      "correctAnswer": "B",
+      "explanation": "Giải thích cho câu 195: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 192,
+      "part": 7,
+      "text": "What is indicated in the customer review?            in paragraph 1, line 3, is closest in meaning",
+      "options": {
+        "A": "The C3 comes with detailed to",
+        "B": "Mr. Perles is pleased with his purchase. (B) about",
+        "C": "Kitchenware Utopia's customer service (C) in comparison",
+        "D": "Users find the C3 difficult to clean."
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 192: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 193,
+      "part": 7,
+      "text": "What is suggested about Mr. Perles?",
+      "options": {
+        "A": "He paid $299 for the food processor.",
+        "B": "He purchased some optional parts for",
+        "C": "He catered a large-scale event on",
+        "D": "He has never used a food processor"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 193: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 196,
+      "part": 7,
+      "text": "In the article, the word \"draw\" in paragraph        199. In the schedule, what are people advised to",
+      "options": {
+        "A": "promote (A) Request a refund for tickets that they",
+        "B": "attract do not plan to use",
+        "C": "Buy tickets for the final game as soon",
+        "D": "remove semifinal games"
+      },
+      "correctAnswer": "A",
+      "explanation": "Giải thích cho câu 196: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 197,
+      "part": 7,
+      "text": "What will be changed about Ment Hall?                          as possible",
+      "options": {
+        "A": "Its ownership (D) Arrive at the final game early",
+        "B": "Katowice",
+        "C": "Its seating capacity 200. Where will Mr. Cote be reporting from?",
+        "D": "Its location (A) Bydgoszcz"
+      },
+      "correctAnswer": "D",
+      "explanation": "Giải thích cho câu 197: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    },
+    {
+      "id": 198,
+      "part": 7,
+      "text": "When will the first game be held at a new                 (C) Cracow",
+      "options": {
+        "A": "On June 10",
+        "B": "On June 13",
+        "C": "On June 14",
+        "D": "On June 16"
+      },
+      "correctAnswer": "C",
+      "explanation": "Giải thích cho câu 198: Căn cứ vào ngữ cảnh ngữ pháp và từ vựng trong bài đọc TOEIC Part 7."
+    }
+  ],
+  "passages": [
+    {
+      "questions": "131-134",
+      "title": "Reading Passage (131-134)",
+      "content": "/"
+    },
+    {
+      "questions": "131-134",
+      "title": "Questions 131-134 refer to the following advertisement.",
+      "content": "Garden Shade Tree Landscaping\n\nGarden Shade creates tree landscapes and hedges to suit every garden, no matter the size. Our\n\n13-:r small urban gardens as well as large-scale projects commissioned by\n\ndesigns have - -\n\narchitects and property developers. ------- . However, no single nursery can offer trees of all\n\nspecies and sizes. That is why Garden Shade has developed close relationships with many\n\nspecialist growers       to provide us with the trees we need . Such resources give us the variety\n\nnecessary to complete any ------- . In other words, whatever your landscape design dream, we can\n\nmake it happen.\n\nlandscaping questions.                          (B) form\n\nour own nurseries.                              (D) survey\n\nrequirements.\n\nis guaranteed for one year.\n\nGO ON TO THE NEXT PAGE ..\n\nTEST 2 53"
+    },
+    {
+      "questions": "135-138",
+      "title": "Questions 135-138 refer to the following e-mail.",
+      "content": "To: Staff\n\nFrom: Amy Henwith\n\nDate: 15 January\n\nSubject: Exciting news\n\nDear Staff,\n\nThanks for a great year! In case you haven't heard, Henwith Home Supply will be -------our second\n\nstore this spring. This additional retail site will be located in the shopping centre at the corner of\n\nAberton Parkway and Sutton Avenue in Derbyshire.\n\nWe will be accepting applications for cashiers and sales positions - -iG.- 1 April. The personnel\n\n1\n\ndirector will review applicants' qualifications from 2 April to 6 April, and ------- is scheduled to\n\nbegin one week later. - -   :.\n\n138\n\nBest,\n\nAmy Henwith, CEO\n\nHenwith Home Supply"
+    },
+    {
+      "questions": "139-142",
+      "title": "Questions 139-142 refer to the following article.",
+      "content": "Amon Donates to Music School in Grenel City\n\nA spokesperson for Brenda Amon ------- that the pianist made a sizeable donation toward the\n\nexpansion of the Grenel City Conservatory of Music. \"Without her generous support,\" said\n\nMarc Diaz, director of facility planning, \"we would have been limited in our renovation plans going\n\nforward.\"\n\n-- --- -- . Now, a new wing will be constructed on the south end of the ------- conservatory. Once\n\ncompleted, the building will boast a 700-seat auditorium, state-of-the-art recording studios, and\n\nnew faculty and administrative offices. Additionally, private practice rooms will be located\n\n-1-42_- the current student lounge.\n\nconservatory was outstanding.                    (B) even though\n\nbecause of budget cuts.                          (D) as well as\n\nover the past few years.\n\nconverted into student housing.\n\nGO ON TO THE NEXT PAGE ..\n\nTEST 2 55"
+    },
+    {
+      "questions": "143-146",
+      "title": "Questions 143-146 refer to the following e-mail.",
+      "content": "Date: 11 January\n\nTo: Mitchell Parker <mparker@allmail.co.za>\n\nFrom : Inez Lofaro <ilofaro@daqtex.co.za>\n\nSubject: Product recall\n\nDear Mr. Parker,\n\nThank you for your recent - -  : of the Daqtex Mini-V camera. We are contacting everyone who\n\n143\n\nhas recently bought this product to inform them that certain models are being recalled for repair.\n\nIn these models, the electronic chip that enables the digital conversion of light is faulty.\n\n-- ----- . Please -------whether your camera has this problem by checking the serial number on the\n\n1 4 4.            145.\n\nbottom of the camera. If it ends with the letters TVX, a repair will be required. Daqtex will pay all\n\nshipping costs for sending your Mini-V back to us. In addition, we will repair ------- free of charge.\n\nThank you,\n\nInez Lofaro, Customer Service Manager\n\nDaqtex Industries\n\nmany years to come.                             (B) it\n\nsection of the manual.                           (D) these\n\nthe clarity of your images.\n\nsome older models.\n\ne-mails, and instant messages. Each text or set of texts is followed by several questions. Select the\n\nbest answer for each question and mark the letter (A), (B), (C), or (D) on your answer sheet."
+    },
+    {
+      "questions": "147-148",
+      "title": "Questions 147-148 refer to the following notice.",
+      "content": "Fastest Fleet\n\nRATE OUR SERVICES AND WIN FREE TRAVEL!\n\nVisit our Web site at www.fastestfleet.com/feedback and fill out the\n\n5-minute questionnaire. You could win one of 10 FREE round-trip bus\n\ntrips to any destination within the continental United States!\n\nYou must be 18 or older to participate. Only customers who have\n\npreviously traveled with Fastest Fleet are eligible to enter.\n\nGO ON TO THE NEXT PAGE ..\n\nTEST 2 57\n\nQuestion s 149-150 refer to the following online chat discussion.\n\n-    Cl          X\n\n...\n\n..,.....\n\nDaniel Mather (9:38 A.M.)\n\nHi Sue, are you working at home today?\n\nSusan Maldini (9:39 A.M.)\n\nNo, but I'm at an off-s ite meeting. What's up?\n\nDaniel Mather (9:41 A.M.)\n\nThe manager asked me to make hard cop ies of some co ntract agreements\n\nfor our record s. I forgot my printer card at home. Could I borrow yours?\n\nSusan Maldini (9:42 A.M.)\n\nSure thing. It's in the business card holder on my desk.\n\nDaniel Mather (9:55 A.M.)\n\nOkay, done. Thank you! I put it back on your desk.\n\n...\n\n@®                                                                                 •••"
+    },
+    {
+      "questions": "151-152",
+      "title": "Questions 151-152 refer to the following memo.",
+      "content": "MEMO\n\nTo:   Westhauser Laboratories Staff\n\nFrom: Area manager\n\nDate: March 22\n\nRe:   Break-time beverages\n\nBeginning immediately, staff members are asked to contribute toward the\n\nI\n\ncost of hot beverages available in our kitchenette. For each cup of coffee or\n\ntea you pour for yourself, we are requesting that you leave fifty cents.\n\nPlease note that this amount is still far less than what you would pay at\n\nthe cafe next to our building.\n\nEach time you prepare a beverage, just place your payment in the marked\n\ncan on the counter next to the sink. As in the past, a variety of\n\nhigh-quality tea and coffee supplies will be made available, and products\n\nwill be restocked monthly. Your understanding is appreciated so that\n\neveryone can continue to enjoy conveniently located hot beverages\n\nthroughout the workday.\n\nGO ON TO THE NEXT PAGE . .\n\nTEST 2 59"
+    },
+    {
+      "questions": "153-155",
+      "title": "Questions 153-155 refer to the following notice.",
+      "content": "\"';\" (•'                                                                                 f e) r\"\n\n'-                                                                                              •\n\nAttention Milwaukee Modern Art Museum Visitors\n\nThe Meacham Room is closed temporarily as we prepare the space for the\n\nModern Artist Showcase, which will run from Aprill to June 30.\n\nWe encourage you to return to experience this much-anticipated exhibit\n\nthat will feature paintings, sculpture, and multimedia works by\n\nacclaimed international artists such as Sally Acosta, Frank Kember,\n\nKimberly Hong, and Matilda Breeland. Of note is newcomer Theodore\n\nCarmody's sculpture collection that was dubbed \"most exciting debut\n\nof the decade\" by Ethan Lerner, renowned and respected critic of the\n\nIreland Arts Chronicle. More information about the featured artists\n\nand the exhibit can be found at www.milwaukeemodernart.org. Or\n\ndownload our museum app to keep current with all upcoming events.\n\nI'-' _(•.)                                                                            , .) 1....:.1\n\nits Web site.                                    (B) Mr. Kember\n\nmembers."
+    },
+    {
+      "questions": "156-157",
+      "title": "Questions 156-157 refer to the following form.",
+      "content": "Change of Work Order\n\nGeneral Contractor:\n\nHoward Kleiber Mercrest Construction\n\n106 Pickens Way. Columbus. OH 43211\n\nProperty Owner: Oscar Copeland. 866 Andell Road. Columbus. OH 43215\n\nProject Start Date: July 10\n\nProject End Date: July 15\n\nThe contractor is hereby instructed to make the following changes to the contract\n\ndocuments:\n\nDescription of Work Added/Deleted:\n\nClient will now be supplying the countertops and faucet in addition to the\n\nkitchen cabinets. Therefore. the total project cost will be adjusted to\n\nonly include the cost of installation.\n\nOriginal Contract Price: $ 3 .496\n\nNet Reduction from Previous Contract: -$2.412\n\nTotal Project Cost with Approved Changes: $1.084\n\nRevised Payment Schedule:\n\n15c:to of total project cost ($162) is due upfront to secure contractor.\n\n$222 is due on project start date. and the remainder ($700) is due upon\n\nproject completion.\n\nAccepted by:\n\nContractor:    H.owMJ.\n\nProperty Owner:     Oscar Ct?&lan.J\n\nI\n\nadjusted?                                             likely give Mr. Kleiber on July 15 ?\n\ncompetitor's price.                              (C) $700\n\nincorrectly.\n\nof labor.\n\nGO ON TO THE NEXT PAGE •\n\nTEST 2 61"
+    },
+    {
+      "questions": "158-160",
+      "title": "Questions 158-160 refer to the following e-mail.",
+      "content": "To:               Dahlia Pawar <dpawar@bronsonco.ca>\n\n[From:            Anna Bondell <abondell@noaaa.com>\n\n-::-.\n\nSubject:          Information\n\nDate:             August 25\n\nDear Ms. Pawar:\n\nThank you for your continued membership in the North American Architects Association.\n\nI'm writing to remind you that preregistration for the annual conference closes on\n\nSeptember 15. - [1] - . This year's conference features more than 100 sessions, an\n\nexhibit hall, and special workshops. - [2] - .\n\nPreregistration will save you $30 off the regular registration fee. - [3] -. At the same\n\ntime, you'll be able to sign up in advance for a group tour of the city and for the VIP\n\nBanquet, which always fills up quickly. Visit our Web site to register online. - [4] - . If\n\nyou prefer to register by telephone, contact us at 1-249-555-0177. Please have your\n\nmembership number available.\n\nLooking forward to seeing you in Mexico City!\n\nSincerely,\n\n•\n\nAnna Bondell\n\nMembership Coordinator\n\nprogram there.\"\n\npreregistration?                                      (B) [2]"
+    },
+    {
+      "questions": "161-164",
+      "title": "Questions 161-164 refer to the following online chat discussion.",
+      "content": "Eile   Meet Now Iools     .t!elp                                                          L]       X\n\n[lJ c;!W I                                                                                     p\n\n-\n\nKurt Webber (4:30P.M.)\n\nJake and I are grabbing a bite to eat after work, around 5:30. Anyone care to join us?\n\nDavi Avril (4:31P.M.)\n\nMaybe. I still have some work to do on the midyear report. Where are you planning to go?\n\nKurt Webber (4:32P.M.)\n\nWe're thinking of trying the new Mexican place on Slate Road. It's called Ocho Coronas.\n\nTim Foxx (4:33P.M.)\n\nYou're out of luck. That place closed a few days ago.\n\nKurt Webber (4:34P.M.)\n\nThat's too bad. I heard great things about it.\n\nTim Foxx (4:36P.M.)\n\nHow about Lotus Tacos around the corner? They always have a special menu on Fridays.\n\nKurt Webber (4:37P.M.)\n\nThat would be great. Do you want to go to Lotus Tacos, Jake?\n\nDavi Avril (4:38P.M.)\n\nOK, but I won't be able to get there till about six.\n\nJake Rivas (4:39P.M.)\n\nSounds good to me. And Davi, I just sent you the updated figures for the report.\n\nabout Ocho Coronas?                                164. What does Mr. Avril decide to do?\n\nGO ON TO THE NEXT PAGE . .\n\nTEST 2 63"
+    },
+    {
+      "questions": "165-167",
+      "title": "Questions 165-167 refer to the following letter.",
+      "content": "Multinational Voice Magazine\n\nPO Box 17999\n\nGreenlane\n\nAuckland 1546\n\nTuata Wehi\n\n16 Page Street\n\nWellington 6023\n\nDear Mr. Wehi,\n\nOn 25 March, your three-month trial subscription to Multinational Voice Magazine\n\nwill expire. To continue to receive this vital news resource, please fill out the\n\npostage-paid renewal card included with this letter and mail it in before the end of\n\nthis month. You may select from a three-month, six-month, one-year, or two-year\n\nsubscription. Do note that our two-year offer is by far the most economical. Also,\n\nthe one- and two-year options include the \"Notable People of the Year\" special\n\nedition.\n\nThank you once again for choosing Multinational Voice Magazine. We continually\n\nstrive to provide the best commentary on global affairs from a New Zealand\n\nperspective. To provide your feedback, please visit www.mvmagazine.co.nz and fill\n\nout our online comment form .\n\nSincerely,\n\nEstelle Pearson, Customer Service Representative\n\nreceiving Multinational Voice Magazine?"
+    },
+    {
+      "questions": "168-171",
+      "title": "Questions 168-171 refer to the following e-mail.",
+      "content": "fl                                             *E-mail*                                            I=\n\nFrom:             info@morganaiq2ortshuttle.com\n\nTo:               tgrant@tivimail.com\n\nSubject:          re: Suitcase on board\n\nDate:             January 19\n\nDear Mr. Grant,\n\nThanks for your inquiry. There are a number of suitcases in our storeroom that match\n\nthe description you provided, but we have not found one bearing a name tag identifying\n\nyou as the owner. You will need to come over and find yours on-site at 620 Baker St.\n\nPlease note that you will be asked to indicate what time your bus left the airport\n\nterminal or, better yet, to present your ticket if you still have it.\n\nWe are open 6 A.M.-10 P.M. every day. Please do not delay. Due to the large number of\n\nitems found by our drivers, we have no choice but to limit storage time to 7 days only,\n\nafter which we dispose of the item.\n\nRegards,\n\nGina Steiner\n\nMorgan Airport Shuttle\n\nabout?                                              171. What is Mr. Grant advised to do?\n\nGO ON TO THE NEXT PAGE ..\n\nTEST 2 65"
+    },
+    {
+      "questions": "172-175",
+      "title": "Questions 172-175 refer to the following article.",
+      "content": "Spectacular Bridge Created with                 unforeseen adjustments that may disrupt an\n\nSuper Cranes                            official construction schedule,\" said Roger\n\nLee, chief engineer of Redding Builders.\n\nBy Marcia Brunon                                 - [3] - . In this case, the metal anchors that\n\nMarch 14                                         connected the bridge to the pylons were\n\ndetermined to be too small. The new anchors\n\nFive years ago, the town of Stonewell,           weighed 22 tons, which is within the safe\n\nsituated at the foot of the Marshall             lifting capacity of an RWC451 crane.\n\nMountains, decided to finance the building       - [4] - . Engineers reinforced the existing\n\nof a bridge across the Stonewell River. It was   cranes for extra security, and the cranes\n\nplanned as a much-needed northern route for      performed well.\n\nthe town. - [1] - . The efficiency of the             Today, this postcard-worthy bridge is the\n\nproject was directly attributable to two         pride of Stonewell, featuring viewing\n\nRWC451        cranes,     manufactured      by   platforms for pedestrians, hikers, and\n\nRonsonworks, a company based in England.         visitors at the base of each pier overlooking\n\nThe two identical tower cranes were          the mountainous valley. Construction\n\nowned by the construction firm Redding           materials and colors harmonize beautifully\n\nBuilders. One crane was assembled at the         with the local environment. All design\n\nsouth bank of the river, while the other one     elements, including the piers, viewing\n\nwas placed on a concrete pylon in the center     platforms, and railings, complement the\n\nof the Stonewell River. - [2] - . The            natural landscape, making the bridge a hit\n\nassembly of the second crane was                 with everyone from hikers to the truck\n\nparticularly challenging, as it required the     drivers who now include it in their regular\n\nuse of another crane on a floating barge.        route.\n\n\"Any large project is going to require\n\nStonewell Bridge project.                        (B) It was designed for both pedestrians\n\nI\n\nBridge construction site.                        (C) It was designed to blend with the\n\nconstruction.                              175. In which of the positions marked [1], [2] , [3],\n\nStonewell Bridge always present                  belong?\n\nproblems.\n\nproject for budgetary reasons .                 four years, was completed in less than\n\nthe Stonewell Bridge.                            (A) [1]\n\nGO ON TO THE NEXT PAGE . .\n\nTEST 2 67"
+    },
+    {
+      "questions": "176-180",
+      "title": "Questions 176-180 refer to the following memo and schedule.",
+      "content": "To:         Absalom and Twigg Law Firm employees\n\nFrom:       Shawna Montgomery, Office Manager\n\nSubject:    March plans\n\nSent:       February 12\n\nAttachment: Schedule\n\nAs most of you are aware, our schedule will be a bit challenging during\n\nthe first week in March. Various rooms and offices will need to be vacated\n\nfor certain periods to allow work crews to repaint, recarpet, and replace\n\nold furniture. Affected employees will need to box up all their office items\n\nby 3 P.M. on the day before their room is scheduled for work (please see\n\nthe attached schedule). Two teams of workers will be on-site, so more than\n\none room at a time will need to be vacated. Note that any rooms due for\n\nwork on Monday must be packed up and vacated by Friday afternoon,\n\nFebruary 27.\n\nBoxes will be provided. Leave your boxes in the rooms for the work crews\n\nto remove. Please label them with your name and office number so that\n\nthe crews can return them to the correct offices once the work is complete.\n\nPlease make arrangements to continue working on your assignments while\n\nthe work crews are in your rooms. The conference room (Room 409) will\n\nremain available to be used as a workspace during the entire week.\n\nAnother possible option is to request permission from your supervisor to\n\ntelecommute for one or two days.\n\nPlease have patience with these temporary inconveniences and do not\n\nhesitate to contact me with any questions or concerns.\n\nWORK SCHEDULE- March 2 to March 6\n\nMONDAY, March 2         Room 401               Room 403\n\n(Meeting room)         (Allie Stevens & Matt Beale)\n\nTUESDAY, March 3\n\nW EDNESDAY, March 4      Room 402               Room 408\n\n(Marlene Asbury &      (Meeting room)\n\nTHURSDAY, March 5        Luke Roe)\n\nFRIDAY, March 6         Room 407               Room 404\n\n(Jung Li)              (Elliot Hagburg & Ana Keller)\n\nrelocating                                        (B) On February 27\n\nworkplace facilities                              (D) On March 4\n\nbuilding maintenance                         180. What is suggested about Mr. Hagburg?\n\nGO ON TO THE NEXT PAGE •\n\nTEST 2 69"
+    },
+    {
+      "questions": "181-185",
+      "title": "Questions 181-185 refer to the following flyer and form .",
+      "content": "[ivrou Farm\n\nFresh Organic Produce-From Our Farm to Your Home\n\nLivrou Farm in Bromont, Quebec, invites you to participate in its community-supported agriculture\n\nprogram. Members enjoy fresh farm produce during our growing season from June to November.\n\nSign up for a farm share and receive these benefits:\n\n• More than 30 varieties of in-season vegetables, fruits, and herbs, harvested by our farm staff and\n\nprepared for you to pick up at our barn\n\n• A selection of pick-your-own strawberries, apples, and other fruits\n\n• Access to our member Web site with recipes, farm updates, and a farm newsletter\n\n• Discounts on events at the farm, such as the annual summer music festival. Events typically cost\n\n$15, but members pay $10.\n\nMembers pick up their shares once a week at the farm. A full-size share is $700 per season, and a\n\nhalf-size share is $350. Half-size shareholders receive half the amount of produce each week. All\n\nother benefits remain the same.\n\nOur farm produce is grown without the use of pesticides or herbicides, and we use only naturally\n\noccutTing fertilizers. For more information or to register for a membership, please see our Web site\n\nat www.livroufarm.ca.\n\n[ · http://www.livroufarm. ca                                                      I\"'\n\n[ivrou Farm                  0\n\n_j Membership I Home I Locations I Reviews I                                                           ....\n\nf\"\"\"\"\"'\n\nName: Julien Bernard\n\nAddress: 78 Dorion Stree t , Bromon t , QC J2L 2K7\n\nFirst choice pick-up day:  Thursday 00 Friday 0  Saturday 0                        Sunday 0\n\nSecond choice pick-up day: Thursday 0  Friday 00 Saturday 0                        Sunday 0\n\nSize of share:             Full     0 Half 00\n\nNOTE: Pick-up is between 3 P.M. and 6 P.M.\n\nPlease provide the names of other individuals in your household. These are the only other\n\nindividuals who will be permitted to pick up your weekly share.\n\nNames: Margaux Bernard , Laurent Bernard\n\nClick HERE to enter payment information on the next page.                                           I-,\n\n\"'\n\nopportunities                                       Sundays.\n\nLivrou Farm?                                        (D) He will be able to plant and grow his\n\nown vegetables.\n\nNovember.\n\nweek.                                          membership?\n\nproducts.                                      (B) $15\n\nmarkets.                                       (D) $700\n\nGO ON TO THE NEXT PAGE ..\n\nTE ST 2 71"
+    },
+    {
+      "questions": "186-190",
+      "title": "Questions 186-190 refer to the following advertisements and e-mail.",
+      "content": "[ http://www.communitylinkforum.org/burlingtonvermont\n\n...\n\nProfessional Seeking Apartment in Burlington                                                t--\n\nJorge Janssen <jjanssen@blitzer.com>\n\nTopic: Real Estate and Housing\n\nDate: June 23\n\nI accepted a new position in Burlington and need to relocate near the downtown area\n\nbefore my start date on August 15. I'm seeking a simple, clean, one-bedroom rental or\n\nlarger, depending on price. A relaxing location with outdoor seating for entertaining\n\nfriends or family would be a plus. I do have a car, but I'd appreciate having good access\n\nto public transportation. I have a budget of around $1,400 monthly to cover all housing\n\ncosts, including utilities.                                                                 -\n\n[ http://www.communitylinkforum.org/burlingtonvermont\n\n...\n\nApartment for Rent in Burlington                                                            r-\n\nEloise McMahon <mcmahonrental@ hmail.com>\n\nTopic: Real Estate and Housing\n\nDate: June 23\n\nBe the first to rent this two-bedroom apartment upon completion of extensive\n\nrenovations. This property is anticipated to be move-in ready on August 1. It will\n\nfeature a clean modern look, new floors throughout, and all-new appliances. The\n\napartment is situated downtown, and students are welcome as it's less than ten minutes\n\nby bus to Denton University. On-street parking is available with a decal from the City\n\nTransportation Office. Cats or small dogs are potentially permitted, but with conditions,\n\nso please inquire. $1 ,400 rent also pays for water, sewer, garbage pickups, and general\n\nupkeep of the property. Electricity and natural gas will be the responsibility of the\n\ntenant. A one-time security deposit equal to one month's rent should be paid upon\n\nsigning the rental agreement.\n\nr[Jb:          II Eloise McMahon <mcmahonrental@ hmail.com>\n\nllfThm:        II Jorge Janssen <jjanssen@blitzer.com>\n\n=\n\nW:             II Arartment\n\nI[Q'Bte:          June 24\n\nDear Ms. McMahon,                                                                            ...\n\nr--\n\nI noticed your rental listing on communitylinkforum.org. From the description it sounds as\n\nif it may be just what I've been looking for. I'm eager to look over the apartment, and I\n\njust happen to be in Burlington all this week. My last day in town will be Sunday,\n\nJune 30. If the place suits me, I'd want to move in the same day that it' s expected to be\n\navailable. The timing would be perfect! I hope to hear from you soon.\n\nI\n\nI\n\nThank you.                                                                                         l\n\nJorge Janssen\n\n(802) 555-0122\n\n...\n\n--,\n\nmatch Mr. Janssen's preferences?                           property\n\nmention that she will need additional                 (D) On August 15\n\ninformation?\n\npreferred\n\nsecurity deposit\n\nneeded\n\nindoor pet\n\nGO ON TO THE NEXT PAGE ..\n\nTEST 2 73"
+    },
+    {
+      "questions": "191-195",
+      "title": "Questions 191-195 refer to the following product description, customer review, and online response.",
+      "content": "Kitchenware Utopia Food Processor-Model C3\n\nYou will never need to buy another food processor! Our best-selling model,\n\nthe C3, is made of high-quality plastic and easy-to-clean stainless steel.\n\nFEATURES The unique blade design and powerful motor\n\nmake this a professional-grade appliance, ideal for busy\n\nrestaurants of any size.\n\nWARRANTY We include a seven-year warranty on all parts\n\nand labor - a reassurance to you that our food processor\n\nwill last a long time.\n\nSpecial purchase price: $319.00/KU Club Members: $299.00\n\nwww.kitchenwareutopia.com/C3/reviews/454\n\nRating:   *****\n\nReview: This product is amazing! I work as a caterer, and I've used a lot of\n\ndifferent food processors. Kitchenware Utopia's C3 is by far the best I've found.\n\nIts motor is very powerful, and the many different blades and settings make it\n\nextremely versatile. Th e settings are also straightforward. It's expensive but well\n\nworth the investment, and since I'm a loyalty club member, the price was\n\nreasonabl e. My only complaint would be that it's very heavy and therefore not\n\nas portabl e as I'd hoped. Overall, though, I'm exceptionally satisfied with this\n\nproduct.\n\nPosted by Eli Perles on March 27\n\n....\n\nWe are very glad to hear you are happy with our C3 food processor. Customer satisfaction    -\n\nis our number one priority. We would like to respond to your complaint and provide a\n\nsuggestion regarding your concerns. Our C2 processor might be better suited to your\n\nprofessional needs. The C2 offers the same motor size as the C3, but it is much smaller\n\nthan the C3 in general. However, this model does cost slightly more than the C3 . You can\n\nview the product description by visiting www.kitchenwareutopia.com/C2.\n\nPosted by Kitchenware Utopia Customer Service on March 28                                    ,.\n\n1-\n\ndescription as a feature of the C3 food               recommended as more suitable for\n\nprocessor?                                            Mr. Perles?\n\nprocessors.                                    (D) It is lightweight.\n\ninstructions.                                   (A) looking after\n\n. is very good.                                   (D) admiring\n\nthe processor.\n\nMarch 27.\n\nbefore.\n\nGO ON TO THE NEXT PAGE ..\n\nTE ST 2 75"
+    },
+    {
+      "questions": "196-200",
+      "title": "Questions 196-200 refer to the following article, sched ule, and news update.",
+      "content": "Ment Hall to Host Piasek Cup Final\n\nMent Hall, which is currently undergoing       Since Ment Hall is the only major arena\n\nextensive renovation, will be ready to         in the country that has never hosted a\n\nhost the final game of the Piasek Cup          Piasek Cup event, the hall's owners were\n\nVolleyball Championship to be held in          proud to have been chosen to host this\n\nWarsaw this June. Although the project         year's finale . The final game will\n\nhas been in the works for some time, it        inaugurate the refurbished hall. The event\n\nwas the opportunity to host this               is expected to draw thousands of\n\nchampionship that provided the economic        volleyball fans, and the organizers are\n\nincentive to push the project to its           confident that Ment Hall will live up to\n\ncompletion. City officials have confirmed      the occasion. Seating 19,000 spectators,\n\nthat the construction is progressing           Ment Hall will be double its previous\n\naccording to schedule and will be              size.\n\ncomplete well before the finals of the\n\nchampionship.\n\nPiasek Cup Volleyball Championship\n\nQuarterfinal Games\n\nVenezuela-Australia       Poland-France         Brazil-USA           Cuba-Egypt\n\n10 June, 3:00P.M.         10 June, 6:00P.M.     11 June, 3:00P.M.    11 June, 6:00P.M.\n\nLoave Arena,              Timpani Hall,         Polana Center,       Mistrz Arena,\n\nBydgoszcz                 Katowice              Cracow               Wroclaw\n\nSemifinal Games\n\nWinners of 10 June games                  Winners of 11 June games\n\n13 June, 3:00 P.M. Timpani Hall, Katowice 13 June, 3:00P.M. Polana Center, Cracow\n\nFinal Game\n\n16 June, 6:00P.M.\n\nMent Hall, Warsaw\n\nNOTE: Tickets for the final game are selling fast, so don't wait until\n\nafter the semifinal games to order. Reserved seating only, no general\n\nadmission . No refunds .\n\nNews Update\n\nHALLAX RADIO 108.3 FM\n\nSports-Volleyball, 10 June\n\nAt 3:00 P.M., Venezuela will take on Australia\n\nfor qualification to the semifinals. Our guest\n\nannouncer will be Vin Cote, retired coach of\n\nlast year 's winning team from Canada.\n\nAt 6:00 P.M., host team Poland will face off\n\nagainst France. The game will be cove!·ed live\n\nby Jeremy Bosko.\n\n2, line 7, is closest in meaning to                      do?\n\nhost venue?                                               (D) Wroclaw\n\nTEST 2 77"
+    }
+  ]
+}
